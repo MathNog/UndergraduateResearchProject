@@ -1,0 +1,25 @@
+> fit10010=arima(serie_ts_2fit, order = c(10,0,10))
+Warning message:
+In arima(serie_ts_2fit, order = c(10, 0, 10)) :
+  possible convergence problem: optim gave code = 1
+> fit10019=arima(serie_ts_2fit, order = c(10,0,19))
+Warning message:
+In arima(serie_ts_2fit, order = c(10, 0, 19)) :
+  possible convergence problem: optim gave code = 1
+> fit1901=arima(serie_ts_2fit, order = c(19,0,1))
+> fit19010=arima(serie_ts_2fit, order = c(19,0,10))
+Warning message:
+In arima(serie_ts_2fit, order = c(19, 0, 10)) :
+  possible convergence problem: optim gave code = 1
+> fit19019=arima(serie_ts_2fit, order = c(19,0,19))
+Warning message:
+In arima(serie_ts_2fit, order = c(19, 0, 19)) :
+  possible convergence problem: optim gave code = 1
+
+##############################
+> accuracy(for100,serie_2for)
+Error in testaccuracy(object, x, test, d, D) : 
+  Not enough forecasts. Check that forecasts and test data match.
+> accuracy(for1019,serie_2for)
+Error in testaccuracy(object, x, test, d, D) : 
+  Not enough forecasts. Check that forecasts and test data match.

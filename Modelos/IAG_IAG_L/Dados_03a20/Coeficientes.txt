@@ -1,0 +1,81 @@
+> coef(fit100)
+                MLE           sd  Z-ratio
+phi(1) 0.0322408385 0.0158031684 2.040150
+mu     0.0005786853 0.0004297735 1.346489
+> print(fit100)
+ARIMA(1,0,0)
+length of series = 4000 ,  number of parameters = 2
+loglikelihood = 14945.26 ,  aic = -29886.5 ,  bic =  -29873.9
+> 
+> coef(fit001)
+                   MLE           sd   Z-ratio
+theta(1) -0.0342433726 0.0158021153 -2.167012
+mu        0.0005786853 0.0003769593  1.535140
+> print(fit001)
+ARIMA(0,0,1)
+length of series = 4000 ,  number of parameters = 2
+loglikelihood = 14945.39 ,  aic = -29886.8 ,  bic =  -29874.2
+> 
+> coef(fit200)
+                 MLE           sd   Z-ratio
+phi(1)  0.0332446434 0.0158036984  2.103599
+phi(2) -0.0311844411 0.0158036984 -1.973237
+mu      0.0005786853 0.0003799093  1.523220
+> print(fit200)
+ARIMA(2,0,0)
+length of series = 4000 ,  number of parameters = 3
+loglikelihood = 14947.21 ,  aic = -29888.4 ,  bic =  -29869.5
+> 
+> coef(fit002)
+                   MLE           sd   Z-ratio
+theta(1) -0.0316784808 0.0158050411 -2.004328
+theta(2)  0.0283319843 0.0158050411  1.792592
+mu        0.0005786853 0.0003768083  1.535755
+> print(fit002)
+ARMA(0,2)
+length of series = 4000 ,  number of parameters = 3
+loglikelihood = 14946.99 ,  aic = -29888 ,  bic =  -29869.1
+> 
+> coef(fit101)
+                   MLE           sd    Z-ratio
+phi(1)   -0.2825639195 0.3842158120 -0.7354302
+theta(1) -0.3184867611 0.3796812518 -0.8388267
+mu        0.0005786853 0.0001392882  4.1545912
+> print(fit101)
+ARIMA(1,0,1)
+length of series = 4000 ,  number of parameters = 3
+loglikelihood = 14945.98 ,  aic = -29886 ,  bic =  -29867.1
+> 
+> coef(fit102)
+                  MLE          sd    Z-ratio
+phi(1)   0.5126265532 0.318227268 1.61088192
+theta(1) 0.4805197188 0.317967103 1.51122463
+theta(2) 0.0480722105 0.016146420 2.97726738
+mu       0.0005786853 0.006676636 0.08667318
+> print(fit102)
+ARMA(1,2)
+length of series = 4000 ,  number of parameters = 4
+loglikelihood = 14948.05 ,  aic = -29888.1 ,  bic =  -29862.9
+> 
+> coef(fit201)
+                   MLE          sd    Z-ratio
+phi(1)    0.5094041165 0.320920822  1.5873202
+phi(2)   -0.0487934056 0.016225138 -3.0072722
+theta(1)  0.4767829823 0.321210167  1.4843334
+mu        0.0005786853 0.004450255  0.1300342
+> print(fit201)
+ARIMA(2,0,1)
+length of series = 4000 ,  number of parameters = 4
+loglikelihood = 14948.16 ,  aic = -29888.3 ,  bic =  -29863.1
+> 
+> coef(fit202)
+                   MLE          sd    Z-ratio
+phi(1)    0.4872940002 0.324265525  1.5027623
+phi(2)   -0.2458543676 0.302735240 -0.8121102
+theta(1)  0.4544253199 0.327468459  1.3876919
+theta(2) -0.1990228168 0.307561265 -0.6470997
+mu        0.0005786853 0.001137653  0.5086657
+> print(fit202)
+ARMA(2,2)
+length of series = 4000 ,  number of parameters = 5
+loglikelihood = 14948.37 ,  aic = -29886.7 ,  bic =  -29855.3

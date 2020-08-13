@@ -1,0 +1,26 @@
+> #coeficientes dos modelos 
+> coef(fit100)
+                MLE           sd   Z-ratio
+phi(1) 0.0399502388 0.0145748543 2.7410386
+mu     0.0001148878 0.0003652244 0.3145677
+> print(fit100)
+ARIMA(1,0,0)
+length of series = 4700 ,  number of parameters = 2
+loglikelihood = 18096.97 ,  aic = -36189.9 ,  bic =  -36177
+> coef(fit001)
+                   MLE           sd    Z-ratio
+theta(1) -0.0391321632 0.0145753265 -2.6848224
+mu        0.0001148878 0.0003102715  0.3702816
+> print(fit001)
+ARIMA(0,0,1)
+length of series = 4700 ,  number of parameters = 2
+loglikelihood = 18096.9 ,  aic = -36189.8 ,  bic =  -36176.9
+> coef(fit101)
+                  MLE           sd   Z-ratio
+phi(1)   0.1968712581 0.3467317771 0.5677912
+theta(1) 0.1569000567 0.3492728224 0.4492192
+mu       0.0001148878 0.0007457279 0.1540613
+> print(fit101)
+ARIMA(1,0,1)
+length of series = 4700 ,  number of parameters = 3
+loglikelihood = 18097.12 ,  aic = -36188.2 ,  bic =  -36168.9

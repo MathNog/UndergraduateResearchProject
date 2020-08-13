@@ -1,0 +1,150 @@
+> #coeficientes dos modelos 
+> print(fit800)
+
+Call:
+arima(x = serie_ts_2fit, order = c(8, 0, 0))
+
+Coefficients:
+         ar1     ar2     ar3     ar4     ar5     ar6     ar7      ar8  intercept
+      0.0270  0.0134  0.0233  0.0051  0.0092  0.0213  0.0011  -0.0518      6e-04
+s.e.  0.0204  0.0204  0.0204  0.0204  0.0204  0.0204  0.0204   0.0204      6e-04
+
+sigma^2 estimated as 0.0006891:  log likelihood = 5330.6,  aic = -10641.2
+> 
+> print(fit008)
+
+Call:
+arima(x = serie_ts_2fit, order = c(0, 0, 8))
+
+Coefficients:
+         ma1     ma2     ma3     ma4     ma5     ma6      ma7      ma8  intercept
+      0.0273  0.0166  0.0272  0.0125  0.0068  0.0142  -0.0046  -0.0489      6e-04
+s.e.  0.0204  0.0204  0.0206  0.0206  0.0202  0.0194   0.0221   0.0200      6e-04
+
+sigma^2 estimated as 0.0006893:  log likelihood = 5330.39,  aic = -10640.77
+> 
+> print(fit1200)
+
+Call:
+arima(x = serie_ts_2fit, order = c(12, 0, 0))
+
+Coefficients:
+         ar1     ar2     ar3     ar4     ar5     ar6      ar7      ar8     ar9    ar10    ar11    ar12  intercept
+      0.0243  0.0132  0.0244  0.0074  0.0081  0.0193  -0.0006  -0.0533  0.0037  0.0303  0.0305  0.0568      6e-04
+s.e.  0.0204  0.0204  0.0204  0.0204  0.0204  0.0204   0.0204   0.0204  0.0204  0.0204  0.0204  0.0204      6e-04
+
+sigma^2 estimated as 0.0006855:  log likelihood = 5336.97,  aic = -10645.94
+> 
+> print(fit0012)
+
+Call:
+arima(x = serie_ts_2fit, order = c(0, 0, 12))
+
+Coefficients:
+         ma1     ma2     ma3     ma4     ma5     ma6     ma7      ma8     ma9    ma10    ma11    ma12  intercept
+      0.0275  0.0225  0.0370  0.0092  0.0053  0.0211  0.0014  -0.0417  0.0099  0.0267  0.0399  0.0723      6e-04
+s.e.  0.0203  0.0206  0.0205  0.0207  0.0207  0.0208  0.0218   0.0199  0.0219  0.0211  0.0204  0.0215      7e-04
+
+sigma^2 estimated as 0.0006848:  log likelihood = 5338.14,  aic = -10648.27
+> 
+> print(fit1400)
+
+Call:
+arima(x = serie_ts_2fit, order = c(14, 0, 0))
+
+Coefficients:
+         ar1     ar2     ar3     ar4     ar5     ar6     ar7      ar8     ar9    ar10    ar11    ar12     ar13     ar14  intercept
+      0.0243  0.0172  0.0269  0.0093  0.0066  0.0163  0.0002  -0.0515  0.0045  0.0313  0.0325  0.0586  -0.0322  -0.0553      7e-04
+s.e.  0.0204  0.0204  0.0204  0.0204  0.0204  0.0204  0.0204   0.0204  0.0204  0.0204  0.0204  0.0204   0.0204   0.0205      6e-04
+
+sigma^2 estimated as 0.0006826:  log likelihood = 5341.97,  aic = -10651.94
+> 
+> print(fit0014)
+
+Call:
+arima(x = serie_ts_2fit, order = c(0, 0, 14))
+
+Coefficients:
+         ma1     ma2     ma3     ma4     ma5     ma6      ma7      ma8     ma9    ma10    ma11    ma12     ma13     ma14  intercept
+      0.0200  0.0198  0.0371  0.0034  0.0031  0.0212  -0.0020  -0.0427  0.0072  0.0210  0.0355  0.0695  -0.0253  -0.0475      6e-04
+s.e.  0.0204  0.0206  0.0205  0.0206  0.0206  0.0207   0.0206   0.0198  0.0218  0.0212  0.0204  0.0214   0.0211   0.0204      6e-04
+
+sigma^2 estimated as 0.0006828:  log likelihood = 5341.66,  aic = -10651.31
+> 
+> print(fit808)
+
+Call:
+arima(x = serie_ts_2fit, order = c(8, 0, 8))
+
+Coefficients:
+         ar1      ar2     ar3      ar4     ar5     ar6     ar7      ar8      ma1     ma2      ma3     ma4      ma5      ma6      ma7     ma8  intercept
+      0.0447  -0.2252  0.2031  -0.0899  0.3131  0.1838  0.5671  -0.3625  -0.0182  0.2436  -0.1791  0.0951  -0.2856  -0.1748  -0.5842  0.2815      6e-04
+s.e.  0.2207   0.1592  0.1785   0.1447  0.1292  0.1015  0.0822   0.1777   0.2241  0.1643   0.1856  0.1557   0.1412   0.1097   0.0905  0.1758      6e-04
+
+sigma^2 estimated as 0.0006837:  log likelihood = 5340.05,  aic = -10644.1
+> 
+> print(fit1208)
+
+Call:
+arima(x = serie_ts_2fit, order = c(12, 0, 8))
+
+Coefficients:
+         ar1      ar2      ar3     ar4      ar5      ar6      ar7     ar8     ar9    ar10    ar11    ar12      ma1     ma2     ma3      ma4     ma5     ma6     ma7
+      0.0875  -0.2647  -0.0537  0.3572  -0.1591  -0.0099  -0.0805  -0.643  0.0241  0.0176  0.0326  0.0872  -0.0641  0.2853  0.0864  -0.3499  0.1658  0.0334  0.0947
+s.e.  0.1767   0.1731   0.1900  0.1938   0.2215   0.2312   0.1976   0.188  0.0251  0.0241  0.0241  0.0232   0.1769  0.1708  0.1905   0.1936  0.2261  0.2333  0.1941
+         ma8  intercept
+      0.6223      7e-04
+s.e.  0.1864      6e-04
+
+sigma^2 estimated as 0.0006781:  log likelihood = 5349.78,  aic = -10655.56
+> 
+> print(fit1408)
+
+Call:
+arima(x = serie_ts_2fit, order = c(14, 0, 8))
+
+Coefficients:
+         ar1    ar2      ar3     ar4      ar5      ar6      ar7      ar8     ar9    ar10    ar11    ar12     ar13     ar14      ma1      ma2     ma3      ma4     ma5
+      0.1518  0.022  -0.0951  0.4539  -0.0262  -0.2079  -0.0159  -0.6647  0.0316  0.0259  0.0216  0.0826  -0.0182  -0.0535  -0.1288  -0.0027  0.1207  -0.4531  0.0188
+s.e.     NaN    NaN      NaN  0.0693      NaN      NaN      NaN      NaN     NaN  0.0251     NaN  0.0142   0.0150      NaN      NaN      NaN     NaN   0.0643     NaN
+         ma6     ma7     ma8  intercept
+      0.2193  0.0207  0.6281      7e-04
+s.e.     NaN     NaN     NaN      6e-04
+
+sigma^2 estimated as 0.0006777:  log likelihood = 5350.57,  aic = -10653.15
+Warning message:
+In sqrt(diag(x$var.coef)) : NaNs produzidos
+
+####################################################
+> accuracy(for1208,serie_2for)
+                        ME       RMSE        MAE  MPE MAPE      MASE         ACF1
+Training set -2.213086e-05 0.02604072 0.01968882  NaN  Inf 0.7063370 0.0002941267
+Test set     -2.186753e-03 0.02271122 0.01709184 -Inf  Inf 0.6131702           NA
+> accuracy(for1408,serie_2for)
+                        ME       RMSE        MAE  MPE MAPE      MASE          ACF1
+Training set -2.402929e-05 0.02603211 0.01969675  NaN  Inf 0.7066215 -0.0007032207
+Test set     -2.148753e-03 0.02260179 0.01701420 -Inf  Inf 0.6103851            NA
+
+#########################################################
+> checkresiduals(fit1208)
+
+	Ljung-Box test
+
+data:  Residuals from ARIMA(12,0,8) with non-zero mean
+Q* = 15.7, df = 3, p-value = 0.001306
+
+Model df: 21.   Total lags used: 24
+
+> dev.off()
+null device 
+          1 
+> 
+> jpeg(file="C:/Users/Matheus/Desktop/PUC/IC/CiasAereas/Modelos/American_AAL/Dados_10a19FOR/Res(14,0,8)_American_10a19.jpeg",width = 658, height = 553)
+> checkresiduals(fit1408)
+
+	Ljung-Box test
+
+data:  Residuals from ARIMA(14,0,8) with non-zero mean
+Q* = 17.711, df = 3, p-value = 0.0005044
+
+Model df: 23.   Total lags used: 26

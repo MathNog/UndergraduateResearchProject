@@ -1,0 +1,10 @@
+> fit11011=arima(serie_ts_2fit, order = c(11,0,11))
+Warning message:
+In arima(serie_ts_2fit, order = c(11, 0, 11)) :
+  possible convergence problem: optim gave code = 1
+> fit21011=arima(serie_ts_2fit, order = c(21,0,11))
+Warning message:
+In arima(serie_ts_2fit, order = c(21, 0, 11)) :
+  possible convergence problem: optim gave code = 1
+
+

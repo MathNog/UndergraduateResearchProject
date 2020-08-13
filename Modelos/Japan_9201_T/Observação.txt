@@ -1,0 +1,2 @@
+Não consigo modelar essa CiaAerea por causa de NaNs no logret
+O que fzr?

@@ -1,0 +1,67 @@
+> #coeficientes dos modelos 
+> print(fit2300)
+
+Call:
+arima(x = serie_ts_2fit, order = c(23, 0, 0))
+
+Coefficients:
+         ar1      ar2     ar3     ar4      ar5      ar6      ar7      ar8     ar9    ar10    ar11     ar12    ar13     ar14     ar15    ar16    ar17     ar18
+      0.0201  -0.0257  0.0196  0.0006  -0.0119  -0.0091  -0.0301  -0.0102  0.0182  0.0113  0.0077  -0.0031  0.0197  -0.0290  -0.0027  0.0146  0.0080  -0.0396
+s.e.  0.0204   0.0205  0.0205  0.0205   0.0204   0.0204   0.0204   0.0204  0.0205  0.0204  0.0204   0.0204  0.0204   0.0205   0.0205  0.0204  0.0204   0.0204
+         ar19     ar20     ar21     ar22     ar23  intercept
+      -0.0192  -0.0357  -0.0300  -0.0049  -0.0523     0.0011
+s.e.   0.0205   0.0205   0.0205   0.0206   0.0206     0.0004
+
+sigma^2 estimated as 0.0005487:  log likelihood = 5604,  aic = -11158
+> 
+> print(fit0023)
+
+Call:
+arima(x = serie_ts_2fit, order = c(0, 0, 23))
+
+Coefficients:
+         ma1      ma2     ma3     ma4      ma5      ma6      ma7      ma8     ma9    ma10    ma11     ma12    ma13     ma14     ma15    ma16    ma17     ma18
+      0.0189  -0.0273  0.0147  0.0020  -0.0159  -0.0119  -0.0287  -0.0109  0.0234  0.0112  0.0031  -0.0049  0.0224  -0.0296  -0.0026  0.0193  0.0126  -0.0355
+s.e.  0.0205   0.0205  0.0205  0.0205   0.0205   0.0205   0.0206   0.0206  0.0204  0.0205  0.0206   0.0211  0.0213   0.0205   0.0203  0.0208  0.0214   0.0205
+         ma19     ma20     ma21    ma22     ma23  intercept
+      -0.0182  -0.0278  -0.0316  0.0013  -0.0522     0.0011
+s.e.   0.0201   0.0200   0.0210  0.0215   0.0212     0.0004
+
+sigma^2 estimated as 0.0005489:  log likelihood = 5603.64,  aic = -11157.27
+> 
+> print(fit23023)
+
+Call:
+arima(x = serie_ts_2fit, order = c(23, 0, 23))
+
+Coefficients:
+          ar1      ar2     ar3      ar4     ar5     ar6      ar7      ar8      ar9     ar10    ar11    ar12     ar13    ar14     ar15     ar16     ar17     ar18
+      -0.0316  -0.0396  0.0809  -0.0437  0.0648  0.0804  -0.0891  -0.0689  -0.2445  -0.0135  0.1199  0.1172  -0.0489  0.0973  -0.0585  -0.1076  -0.1961  -0.2183
+s.e.   0.0022      NaN     NaN      NaN     NaN     NaN      NaN      NaN      NaN   0.0015     NaN  0.0025   0.0004     NaN      NaN      NaN      NaN      NaN
+         ar19     ar20    ar21    ar22     ar23     ma1     ma2      ma3     ma4      ma5      ma6     ma7     ma8     ma9   ma10     ma11     ma12    ma13     ma14
+      -0.0333  -0.2425  0.0713  -0.176  -0.0079  0.0518  0.0142  -0.0592  0.0508  -0.0679  -0.0922  0.0631  0.0576  0.2568  0.023  -0.1248  -0.1228  0.0751  -0.1292
+s.e.   0.0042      NaN  0.0008   0.001      NaN  0.0011     NaN      NaN  0.0009   0.0010   0.0043     NaN     NaN     NaN    NaN   0.0024   0.0043     NaN      NaN
+       ma15    ma16    ma17    ma18   ma19    ma20     ma21    ma22     ma23  intercept
+      0.051  0.1352  0.2179  0.1933  0.012  0.2101  -0.1033  0.1680  -0.0456     0.0011
+s.e.    NaN     NaN     NaN     NaN    NaN     NaN   0.0014  0.0009   0.0009     0.0004
+
+sigma^2 estimated as 0.0005448:  log likelihood = 5612.76,  aic = -11129.52
+Warning message:
+In sqrt(diag(x$var.coef)) : NaNs produzidos
+
+#########################################
+
+
+> accuracy(for2300,serie_2for)
+                        ME       RMSE         MAE  MPE MAPE      MASE       ACF1
+Training set -7.570236e-06 0.02342442 0.017643962  NaN  Inf 0.7013809 -0.0007967
+Test set     -1.659567e-03 0.01319110 0.009675548 -Inf  Inf 0.3846213         NA
+> accuracy(for23023,serie_2for)
+                        ME       RMSE         MAE  MPE MAPE      MASE         ACF1
+Training set -1.161987e-05 0.02334048 0.017563762  NaN  Inf 0.6981928 -0.002565273
+Test set     -1.775274e-03 0.01336896 0.009688357 -Inf  Inf 0.3851305           NA
+
+
+
+A pesar das receitas dessas cias poderem ter sazonalidade, mas essa sazonalidade não ser transmitida para os retornos, mostra uma maturidade do mercado para smooth-out os retornos
+O ciclo pode ser anual. Se existe essa propriedade de smooth-out, talvez ao mudarmos a escala de análise apareçam ciclos.

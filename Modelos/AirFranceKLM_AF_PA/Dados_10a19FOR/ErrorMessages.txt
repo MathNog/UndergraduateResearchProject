@@ -1,0 +1,14 @@
+> fit2100=arima(serie_ts_2fit, order = c(21,0,0))
+Error in optim(init[mask], armafn, method = optim.method, hessian = TRUE,  : 
+  non-finite finite-difference value [6]
+> fit11021=arima(serie_ts_2fit, order = c(11,0,21))
+Warning message:
+In arima(serie_ts_2fit, order = c(11, 0, 21)) :
+  possible convergence problem: optim gave code = 1
+> fit21011=arima(serie_ts_2fit, order = c(21,0,11))
+Warning message:
+In arima(serie_ts_2fit, order = c(21, 0, 11)) :
+  possible convergence problem: optim gave code = 1
+> fit21021=arima(serie_ts_2fit, order = c(21,0,21))
+Error in optim(init[mask], armafn, method = optim.method, hessian = TRUE,  : 
+  non-finite finite-difference value [21]

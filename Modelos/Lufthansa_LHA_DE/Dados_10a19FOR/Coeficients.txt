@@ -1,0 +1,73 @@
+> #coeficientes dos modelos 
+> print(fit1100)
+
+Call:
+arima(x = serie_ts_2fit, order = c(11, 0, 0))
+
+Coefficients:
+         ar1     ar2      ar3      ar4     ar5     ar6      ar7     ar8      ar9     ar10    ar11  intercept
+      0.0271  0.0297  -0.0072  -0.0127  0.0145  0.0087  -0.0172  0.0128  -0.0273  -0.0307  0.0584      5e-04
+s.e.  0.0204  0.0204   0.0204   0.0204  0.0204  0.0204   0.0204  0.0204   0.0204   0.0204  0.0204      4e-04
+
+sigma^2 estimated as 0.000353:  log likelihood = 6133.52,  aic = -12241.03
+> 
+> print(fit0011)
+
+Call:
+arima(x = serie_ts_2fit, order = c(0, 0, 11))
+
+Coefficients:
+         ma1     ma2      ma3      ma4     ma5     ma6      ma7     ma8      ma9     ma10    ma11  intercept
+      0.0282  0.0270  -0.0050  -0.0073  0.0103  0.0077  -0.0158  0.0131  -0.0305  -0.0253  0.0536      5e-04
+s.e.  0.0204  0.0204   0.0205   0.0204  0.0204  0.0207   0.0205  0.0203   0.0202   0.0200  0.0203      4e-04
+
+sigma^2 estimated as 0.0003531:  log likelihood = 6133.02,  aic = -12240.05
+> 
+> print(fit2100)
+
+Call:
+arima(x = serie_ts_2fit, order = c(21, 0, 0))
+
+Coefficients:
+         ar1     ar2      ar3      ar4     ar5     ar6      ar7     ar8      ar9     ar10    ar11     ar12    ar13    ar14     ar15    ar16    ar17    ar18     ar19
+      0.0298  0.0282  -0.0070  -0.0108  0.0141  0.0070  -0.0177  0.0146  -0.0295  -0.0270  0.0578  -0.0112  0.0196  0.0027  -0.0287  0.0080  0.0118  0.0112  -0.0161
+s.e.  0.0204  0.0204   0.0204   0.0204  0.0204  0.0204   0.0204  0.0204   0.0204   0.0204  0.0204   0.0204  0.0204  0.0204   0.0204  0.0204  0.0204  0.0204   0.0204
+        ar20     ar21  intercept
+      0.0354  -0.0388      5e-04
+s.e.  0.0204   0.0204      4e-04
+
+sigma^2 estimated as 0.0003514:  log likelihood = 6138.87,  aic = -12231.75
+
+#########################################################
+> accuracy(for1100,serie_2for)
+                        ME       RMSE        MAE  MPE MAPE      MASE         ACF1
+Training set -1.102608e-06 0.01878714 0.01422579  NaN  Inf 0.6986575 0.0005108556
+Test set      5.965932e-05 0.01680258 0.01263303 -Inf  Inf 0.6204334           NA
+> accuracy(for2100,serie_2for)
+                        ME       RMSE        MAE  MPE MAPE      MASE         ACF1
+Training set -3.382804e-08 0.01874492 0.01421025  NaN  Inf 0.6978942 0.0003678073
+Test set      4.964522e-05 0.01682869 0.01267618 -Inf  Inf 0.6225527           NA
+
+#########################################################
+> checkresiduals(fit1100)
+
+	Ljung-Box test
+
+data:  Residuals from ARIMA(11,0,0) with non-zero mean
+Q* = 3.3951, df = 3, p-value = 0.3346
+
+Model df: 12.   Total lags used: 15
+
+> dev.off()
+null device 
+          1 
+> 
+> jpeg(file="C:/Users/Matheus/Desktop/PUC/IC/CiasAereas/Modelos/Lufthansa_LHA_DE/Dados_10a19FOR/Res(21,0,0)_Lufthansa_10a19.jpeg",width = 658, height = 553)
+> checkresiduals(fit2100)
+
+	Ljung-Box test
+
+data:  Residuals from ARIMA(21,0,0) with non-zero mean
+Q* = 3.6579, df = 3, p-value = 0.3009
+
+Model df: 22.   Total lags used: 25
