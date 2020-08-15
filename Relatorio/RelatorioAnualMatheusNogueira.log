@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.11)  14 AUG 2020 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.8.11)  14 AUG 2020 22:21
 entering extended mode
 **./RelatorioAnualMatheusNogueira.tex
 (RelatorioAnualMatheusNogueira.tex
@@ -219,20 +219,20 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 (RelatorioAnualMatheusNogueira.aux)
 \openout1 = `RelatorioAnualMatheusNogueira.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -295,7 +295,7 @@ We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
 [2]
-Overfull \hbox (1.37766pt too wide) in paragraph at lines 97--98
+Overfull \hbox (1.37766pt too wide) in paragraph at lines 99--100
 \OT1/cmr/m/n/12 Com o in-tuito de im-ple-men-tar uma ro-tina de ajuste e pre-vi
 s~ao de mo-de-los $\OML/cmm/m/it/12 ARIMA\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d
 ; q\OT1/cmr/m/n/12 )$,
@@ -305,7 +305,7 @@ s~ao de mo-de-los $\OML/cmm/m/it/12 ARIMA\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 p; d
 <../Modelos/CompGeral00a20.jpg, id=30, 1679.52469pt x 846.91406pt>
 File: ../Modelos/CompGeral00a20.jpg Graphic file (type jpg)
 <use ../Modelos/CompGeral00a20.jpg>
-Package pdftex.def Info: ../Modelos/CompGeral00a20.jpg  used on input line 153.
+Package pdftex.def Info: ../Modelos/CompGeral00a20.jpg  used on input line 155.
 
 (pdftex.def)             Requested size: 455.24411pt x 229.56152pt.
  [7] [8 <../Modelos/CompGeral00a20.jpg>]
@@ -313,20 +313,20 @@ Package pdftex.def Info: ../Modelos/CompGeral00a20.jpg  used on input line 153.
 File: ../Modelos/SeriesCompUSA10_19.jpg Graphic file (type jpg)
 <use ../Modelos/SeriesCompUSA10_19.jpg>
 Package pdftex.def Info: ../Modelos/SeriesCompUSA10_19.jpg  used on input line 
-169.
+171.
 (pdftex.def)             Requested size: 364.19667pt x 306.22815pt.
  [9]
 <../Modelos/SeriesCompDeltaLat10_19.jpg, id=42, 645.1302pt x 542.025pt>
 File: ../Modelos/SeriesCompDeltaLat10_19.jpg Graphic file (type jpg)
 <use ../Modelos/SeriesCompDeltaLat10_19.jpg>
 Package pdftex.def Info: ../Modelos/SeriesCompDeltaLat10_19.jpg  used on input 
-line 176.
+line 178.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
 <../Modelos/SeriesCompChina10_19.jpg, id=43, 645.1302pt x 542.025pt>
 File: ../Modelos/SeriesCompChina10_19.jpg Graphic file (type jpg)
 <use ../Modelos/SeriesCompChina10_19.jpg>
 Package pdftex.def Info: ../Modelos/SeriesCompChina10_19.jpg  used on input lin
-e 183.
+e 185.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
  [10 <../Modelos/SeriesCompUSA10_19.jpg> <../Modelos/SeriesCompDeltaLat10_19.jp
 g>]
@@ -334,13 +334,13 @@ g>]
 File: ../Modelos/SeriesCompJapIAG10_19.jpg Graphic file (type jpg)
 <use ../Modelos/SeriesCompJapIAG10_19.jpg>
 Package pdftex.def Info: ../Modelos/SeriesCompJapIAG10_19.jpg  used on input li
-ne 190.
+ne 192.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
 <../Modelos/SeriesCompEuropa10_19.jpg, id=48, 645.1302pt x 542.025pt>
 File: ../Modelos/SeriesCompEuropa10_19.jpg Graphic file (type jpg)
 <use ../Modelos/SeriesCompEuropa10_19.jpg>
 Package pdftex.def Info: ../Modelos/SeriesCompEuropa10_19.jpg  used on input li
-ne 197.
+ne 199.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
  [11 <../Modelos/SeriesCompChina10_19.jpg> <../Modelos/SeriesCompJapIAG10_19.jp
 g>] [12 <../Modelos/SeriesCompEuropa10_19.jpg>]
@@ -348,26 +348,26 @@ g>] [12 <../Modelos/SeriesCompEuropa10_19.jpg>]
 File: ../Modelos/CorrelationsUSA10_19.jpg Graphic file (type jpg)
 <use ../Modelos/CorrelationsUSA10_19.jpg>
 Package pdftex.def Info: ../Modelos/CorrelationsUSA10_19.jpg  used on input lin
-e 216.
+e 218.
 (pdftex.def)             Requested size: 364.19667pt x 306.22815pt.
 <../Modelos/CorrelationsDeltaLat10_19.jpg, id=58, 644.6484pt x 542.025pt>
 File: ../Modelos/CorrelationsDeltaLat10_19.jpg Graphic file (type jpg)
 <use ../Modelos/CorrelationsDeltaLat10_19.jpg>
 Package pdftex.def Info: ../Modelos/CorrelationsDeltaLat10_19.jpg  used on inpu
-t line 223.
+t line 225.
 (pdftex.def)             Requested size: 364.19667pt x 306.22815pt.
  [13 <../Modelos/CorrelationsUSA10_19.jpg>]
 <../Modelos/CorrelationsChina10_19.jpg, id=63, 645.1302pt x 542.025pt>
 File: ../Modelos/CorrelationsChina10_19.jpg Graphic file (type jpg)
 <use ../Modelos/CorrelationsChina10_19.jpg>
 Package pdftex.def Info: ../Modelos/CorrelationsChina10_19.jpg  used on input l
-ine 230.
+ine 232.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
 <../Modelos/CorrelationsJapanIAG10_19.jpg, id=64, 645.1302pt x 542.025pt>
 File: ../Modelos/CorrelationsJapanIAG10_19.jpg Graphic file (type jpg)
 <use ../Modelos/CorrelationsJapanIAG10_19.jpg>
 Package pdftex.def Info: ../Modelos/CorrelationsJapanIAG10_19.jpg  used on inpu
-t line 237.
+t line 239.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
 
 [14 <../Modelos/CorrelationsDeltaLat10_19.jpg> <../Modelos/CorrelationsChina10_
@@ -376,44 +376,44 @@ t line 237.
 File: ../Modelos/CorrelationsAirKLM10_19.jpg Graphic file (type jpg)
 <use ../Modelos/CorrelationsAirKLM10_19.jpg>
 Package pdftex.def Info: ../Modelos/CorrelationsAirKLM10_19.jpg  used on input 
-line 244.
+line 246.
 (pdftex.def)             Requested size: 364.19667pt x 305.9883pt.
 
-Overfull \hbox (7.57498pt too wide) in paragraph at lines 249--250
+Overfull \hbox (7.57498pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/it/12 (1,0,16), (10,0,1), (16,0,1); \OT1/cmr/bx/it/12 China Eas-tern
  \OT1/cmr/m/it/12 - (1,0,0), (0,0,1), (10,0,0), (0,0,10), (16,0,0),
  []
 
 
-Overfull \hbox (4.33919pt too wide) in paragraph at lines 249--250
+Overfull \hbox (4.33919pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/it/12 (0,0,16), (1,0,1), (1,0,10), (1,0,16), (10,0,1), (10,0,16), (1
 6,0,1); \OT1/cmr/bx/it/12 Ja-pan \OT1/cmr/m/it/12 - (1,0,0), (0,0,1),
  []
 
 
-Overfull \hbox (6.7149pt too wide) in paragraph at lines 249--250
+Overfull \hbox (6.7149pt too wide) in paragraph at lines 251--252
 \OT1/cmr/m/it/12 (2,0,0), (0,0,2), (1,0,1), (1,0,2), (2,0,1), (2,0,2); \OT1/cmr
 /bx/it/12 IAG \OT1/cmr/m/it/12 - (1,0,0), (0,0,1), (11,0,0), (0,0,11),
  []
 
 [15 <../Modelos/CorrelationsJapanIAG10_19.jpg> <../Modelos/CorrelationsAirKLM10
 _19.jpg>]
-Overfull \hbox (10.72467pt too wide) in paragraph at lines 255--264
+Overfull \hbox (10.72467pt too wide) in paragraph at lines 257--266
  [][] 
  []
 
 
-Overfull \hbox (18.55792pt too wide) in paragraph at lines 270--281
+Overfull \hbox (18.55792pt too wide) in paragraph at lines 272--283
  [][] 
  []
 
 [16]
-Overfull \hbox (10.72467pt too wide) in paragraph at lines 326--335
+Overfull \hbox (10.72467pt too wide) in paragraph at lines 328--337
  [][] 
  []
 
 
-Overfull \hbox (22.47455pt too wide) in paragraph at lines 354--363
+Overfull \hbox (22.47455pt too wide) in paragraph at lines 356--365
  [][] 
  []
 
@@ -422,30 +422,30 @@ Overfull \hbox (22.47455pt too wide) in paragraph at lines 354--363
 File: ../Modelos/ForecastAmerUnit.jpg Graphic file (type jpg)
 <use ../Modelos/ForecastAmerUnit.jpg>
 Package pdftex.def Info: ../Modelos/ForecastAmerUnit.jpg  used on input line 43
-6.
+8.
 (pdftex.def)             Requested size: 409.71692pt x 172.17932pt.
 <../Modelos/ForecastDeltaLat.jpg, id=80, 990.5808pt x 416.2752pt>
 File: ../Modelos/ForecastDeltaLat.jpg Graphic file (type jpg)
 <use ../Modelos/ForecastDeltaLat.jpg>
 Package pdftex.def Info: ../Modelos/ForecastDeltaLat.jpg  used on input line 44
-2.
+4.
 (pdftex.def)             Requested size: 409.71692pt x 172.17932pt.
  [18]
 <../Modelos/ForecastChinaSoEast.jpg, id=84, 990.5808pt x 416.757pt>
 File: ../Modelos/ForecastChinaSoEast.jpg Graphic file (type jpg)
 <use ../Modelos/ForecastChinaSoEast.jpg>
 Package pdftex.def Info: ../Modelos/ForecastChinaSoEast.jpg  used on input line
- 448.
+ 450.
 (pdftex.def)             Requested size: 409.71692pt x 172.3786pt.
 <../Modelos/ForecastJpIAG.jpg, id=85, 990.5808pt x 416.757pt>
 File: ../Modelos/ForecastJpIAG.jpg Graphic file (type jpg)
 <use ../Modelos/ForecastJpIAG.jpg>
-Package pdftex.def Info: ../Modelos/ForecastJpIAG.jpg  used on input line 454.
+Package pdftex.def Info: ../Modelos/ForecastJpIAG.jpg  used on input line 456.
 (pdftex.def)             Requested size: 409.71692pt x 172.3786pt.
 <../Modelos/ForecastKLMLuft.jpg, id=86, 990.5808pt x 416.757pt>
 File: ../Modelos/ForecastKLMLuft.jpg Graphic file (type jpg)
 <use ../Modelos/ForecastKLMLuft.jpg>
-Package pdftex.def Info: ../Modelos/ForecastKLMLuft.jpg  used on input line 460
+Package pdftex.def Info: ../Modelos/ForecastKLMLuft.jpg  used on input line 462
 .
 (pdftex.def)             Requested size: 409.71692pt x 172.3786pt.
  [19 <../Modelos/ForecastAmerUnit.jpg> <../Modelos/ForecastDeltaLat.jpg> <../Mo
@@ -454,38 +454,38 @@ delos/ForecastChinaSoEast.jpg>]
 File: ../Modelos/ResidualsAmericanUnited.jpg Graphic file (type jpg)
 <use ../Modelos/ResidualsAmericanUnited.jpg>
 Package pdftex.def Info: ../Modelos/ResidualsAmericanUnited.jpg  used on input 
-line 470.
+line 472.
 (pdftex.def)             Requested size: 455.24411pt x 191.31107pt.
 <../Modelos/ResidualsDeltaLatam.jpg, id=92, 990.5808pt x 416.757pt>
 File: ../Modelos/ResidualsDeltaLatam.jpg Graphic file (type jpg)
 <use ../Modelos/ResidualsDeltaLatam.jpg>
 Package pdftex.def Info: ../Modelos/ResidualsDeltaLatam.jpg  used on input line
- 476.
+ 478.
 (pdftex.def)             Requested size: 455.24411pt x 191.53249pt.
  [20 <../Modelos/ForecastJpIAG.jpg> <../Modelos/ForecastKLMLuft.jpg>]
 <../Modelos/ResidualsChinaSouEast.jpg, id=96, 990.5808pt x 416.757pt>
 File: ../Modelos/ResidualsChinaSouEast.jpg Graphic file (type jpg)
 <use ../Modelos/ResidualsChinaSouEast.jpg>
 Package pdftex.def Info: ../Modelos/ResidualsChinaSouEast.jpg  used on input li
-ne 482.
+ne 484.
 (pdftex.def)             Requested size: 455.24411pt x 191.53249pt.
 <../Modelos/ResidualsJapanIAG.jpg, id=97, 990.5808pt x 416.2752pt>
 File: ../Modelos/ResidualsJapanIAG.jpg Graphic file (type jpg)
 <use ../Modelos/ResidualsJapanIAG.jpg>
 Package pdftex.def Info: ../Modelos/ResidualsJapanIAG.jpg  used on input line 4
-88.
+90.
 (pdftex.def)             Requested size: 455.24411pt x 191.31107pt.
 <../Modelos/ResidualsKLMLufthansa.jpg, id=98, 990.5808pt x 416.2752pt>
 File: ../Modelos/ResidualsKLMLufthansa.jpg Graphic file (type jpg)
 <use ../Modelos/ResidualsKLMLufthansa.jpg>
 Package pdftex.def Info: ../Modelos/ResidualsKLMLufthansa.jpg  used on input li
-ne 494.
+ne 496.
 (pdftex.def)             Requested size: 455.24411pt x 191.31107pt.
  [21 <../Modelos/ResidualsAmericanUnited.jpg> <../Modelos/ResidualsDeltaLatam.j
 pg> <../Modelos/ResidualsChinaSouEast.jpg>]
 [22 <../Modelos/ResidualsJapanIAG.jpg> <../Modelos/ResidualsKLMLufthansa.jpg>]
 [23]
-Overfull \hbox (33.02286pt too wide) in paragraph at lines 581--582
+Overfull \hbox (33.02286pt too wide) in paragraph at lines 583--584
 []\OT1/cmr/m/n/12 Github Re-po-si-tory, \OT1/cmtt/m/n/12 https://github.com/Mat
 hNog/UndergraduateResearchProject.git 
  []
@@ -510,7 +510,7 @@ Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files
 msy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on RelatorioAnualMatheusNogueira.pdf (24 pages, 5739990 bytes).
+Output written on RelatorioAnualMatheusNogueira.pdf (24 pages, 5740346 bytes).
 PDF statistics:
  150 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
