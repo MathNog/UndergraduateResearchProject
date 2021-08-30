@@ -1,0 +1,18 @@
+$Granger
+
+	Granger causality H0: ChinaSouth do not Granger-cause IAG Japan ChinaEast Latam Delta United American Lufthansa
+	AirFranceKLM
+
+data:  VAR object VAR_est
+F-Test = 17.556, df1 = 81, df2 = 15090, p-value < 2.2e-16
+
+
+$Instant
+
+	H0: No instantaneous causality between: ChinaSouth and IAG Japan ChinaEast Latam Delta United American Lufthansa
+	AirFranceKLM
+
+data:  VAR object VAR_est
+Chi-squared = 5.3735, df = 9, p-value = 0.8006
+
+

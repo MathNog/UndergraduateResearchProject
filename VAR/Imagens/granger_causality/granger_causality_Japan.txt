@@ -1,0 +1,18 @@
+$Granger
+
+	Granger causality H0: Japan do not Granger-cause IAG ChinaSouth ChinaEast Latam Delta United American Lufthansa
+	AirFranceKLM
+
+data:  VAR object VAR_est
+F-Test = 0.69749, df1 = 81, df2 = 15090, p-value = 0.9823
+
+
+$Instant
+
+	H0: No instantaneous causality between: Japan and IAG ChinaSouth ChinaEast Latam Delta United American Lufthansa
+	AirFranceKLM
+
+data:  VAR object VAR_est
+Chi-squared = 12.535, df = 9, p-value = 0.1848
+
+

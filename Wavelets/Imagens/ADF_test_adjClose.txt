@@ -1,0 +1,79 @@
+[1] "IAG"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.6151, Lag order = 13, p-value = 0.3179
+alternative hypothesis: stationary
+
+[1] "Japan"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.2936, Lag order = 12, p-value = 0.454
+alternative hypothesis: stationary
+
+[1] "ChinaSouth"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -3.052, Lag order = 13, p-value = 0.1329
+alternative hypothesis: stationary
+
+[1] "ChinaEast"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -3.086, Lag order = 13, p-value = 0.1186
+alternative hypothesis: stationary
+
+[1] "Latam"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.3346, Lag order = 13, p-value = 0.4367
+alternative hypothesis: stationary
+
+[1] "Delta"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.9244, Lag order = 13, p-value = 0.187
+alternative hypothesis: stationary
+
+[1] "United"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -3.6406, Lag order = 13, p-value = 0.02876
+alternative hypothesis: stationary
+
+[1] "American"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -1.1553, Lag order = 13, p-value = 0.9137
+alternative hypothesis: stationary
+
+[1] "Lufthansa"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.0473, Lag order = 13, p-value = 0.5583
+alternative hypothesis: stationary
+
+[1] "AirFranceKLM"
+
+	Augmented Dickey-Fuller Test
+
+data:  series[[i]]
+Dickey-Fuller = -2.4936, Lag order = 13, p-value = 0.3694
+alternative hypothesis: stationary

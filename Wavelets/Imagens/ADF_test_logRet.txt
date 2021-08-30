@@ -1,0 +1,101 @@
+[1] "IAG"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -13.374, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "Japan"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -12.001, Lag order = 12, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "ChinaSouth"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -13.26, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "ChinaEast"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -13.696, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "Latam"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -12.584, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "Delta"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -14.272, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "United"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -13.587, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "American"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -13.177, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "Lufthansa"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -12.952, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+[1] "AirFranceKLM"
+
+	Augmented Dickey-Fuller Test
+
+data:  logret[[i]]
+Dickey-Fuller = -12.639, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary
+
+Warning messages:
+1: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+2: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+3: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+4: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+5: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+6: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+7: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+8: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+9: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value
+10: In adf.test(logret[[i]], alternative = "stationary") :
+  p-value smaller than printed p-value

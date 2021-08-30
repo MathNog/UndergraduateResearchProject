@@ -1,0 +1,1124 @@
+
+VAR Estimation Results:
+========================= 
+Endogenous variables: Japan, IAG, ChinaSouth, ChinaEast, Delta, United, American, Lufthansa, Latam, AirFranceKLM 
+Deterministic variables: const 
+Sample size: 1600 
+Log Likelihood: 40381.902 
+Roots of the characteristic polynomial:
+0.8781 0.8781 0.8724 0.8654 0.8654 0.8554 0.8554 0.8533 0.8533 0.8521 0.8521 0.8433 0.8433 0.8299 0.8299 0.8274 0.8274 0.8158 0.8158 0.8028 0.8028 0.8006 0.8006 0.7983 0.7831 0.7831 0.782 0.782 0.7783 0.7783 0.7758 0.7758 0.7749 0.7749 0.7672 0.7672 0.767 0.767 0.7651 0.7651 0.7644 0.7644 0.7615 0.7615 0.7512 0.7512 0.747 0.747 0.7449 0.7449 0.7439 0.7439 0.7416 0.7416 0.7414 0.7414 0.7317 0.7317 0.7244 0.7239 0.7239 0.7207 0.7207 0.7187 0.7187 0.7158 0.7158 0.7055 0.7055 0.7032 0.7032 0.6937 0.6937 0.6878 0.6878 0.6832 0.6832 0.6639 0.6639 0.6421 0.6407 0.6407 0.6349 0.6349  0.62  0.62 0.5061 0.5061 0.4032 0.1042
+Call:
+VAR(y = VAR_data, p = 9)
+
+
+Estimation results for equation Japan: 
+====================================== 
+Japan = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)  
+Japan.l1         0.0653128  0.0258446   2.527   0.0116 *
+IAG.l1           0.0240905  0.0171535   1.404   0.1604  
+ChinaSouth.l1   -0.0076260  0.0136654  -0.558   0.5769  
+ChinaEast.l1    -0.0062217  0.0134042  -0.464   0.6426  
+Delta.l1         0.0085555  0.0250205   0.342   0.7324  
+United.l1        0.0310547  0.0229623   1.352   0.1764  
+American.l1     -0.0106613  0.0189560  -0.562   0.5739  
+Lufthansa.l1     0.0459914  0.0194278   2.367   0.0180 *
+Latam.l1        -0.0254256  0.0199296  -1.276   0.2022  
+AirFranceKLM.l1 -0.0060470  0.0148230  -0.408   0.6834  
+Japan.l2         0.0534875  0.0259352   2.062   0.0393 *
+IAG.l2           0.0256130  0.0172622   1.484   0.1381  
+ChinaSouth.l2   -0.0017516  0.0135742  -0.129   0.8973  
+ChinaEast.l2     0.0103320  0.0133796   0.772   0.4401  
+Delta.l2         0.0155325  0.0250430   0.620   0.5352  
+United.l2       -0.0211132  0.0229480  -0.920   0.3577  
+American.l2      0.0157410  0.0189425   0.831   0.4061  
+Lufthansa.l2    -0.0103974  0.0197048  -0.528   0.5978  
+Latam.l2        -0.0195828  0.0200358  -0.977   0.3285  
+AirFranceKLM.l2  0.0041019  0.0148048   0.277   0.7818  
+Japan.l3        -0.0247667  0.0259482  -0.954   0.3400  
+IAG.l3          -0.0025459  0.0173458  -0.147   0.8833  
+ChinaSouth.l3   -0.0322212  0.0135734  -2.374   0.0177 *
+ChinaEast.l3     0.0093207  0.0132643   0.703   0.4824  
+Delta.l3        -0.0168458  0.0252073  -0.668   0.5040  
+United.l3       -0.0168227  0.0228752  -0.735   0.4622  
+American.l3      0.0305671  0.0188861   1.618   0.1058  
+Lufthansa.l3    -0.0147733  0.0199676  -0.740   0.4595  
+Latam.l3         0.0014296  0.0200376   0.071   0.9431  
+AirFranceKLM.l3 -0.0038435  0.0147981  -0.260   0.7951  
+Japan.l4         0.0025837  0.0258950   0.100   0.9205  
+IAG.l4           0.0171261  0.0174649   0.981   0.3269  
+ChinaSouth.l4    0.0075446  0.0136721   0.552   0.5812  
+ChinaEast.l4    -0.0293904  0.0132385  -2.220   0.0266 *
+Delta.l4        -0.0513908  0.0252094  -2.039   0.0417 *
+United.l4        0.0233849  0.0229007   1.021   0.3074  
+American.l4      0.0202319  0.0188930   1.071   0.2844  
+Lufthansa.l4     0.0083067  0.0198711   0.418   0.6760  
+Latam.l4         0.0183178  0.0200459   0.914   0.3610  
+AirFranceKLM.l4 -0.0117282  0.0148197  -0.791   0.4288  
+Japan.l5         0.0140081  0.0259403   0.540   0.5893  
+IAG.l5           0.0066121  0.0174911   0.378   0.7055  
+ChinaSouth.l5    0.0020536  0.0137088   0.150   0.8809  
+ChinaEast.l5     0.0156202  0.0132948   1.175   0.2402  
+Delta.l5         0.0086249  0.0252414   0.342   0.7326  
+United.l5       -0.0193091  0.0228548  -0.845   0.3983  
+American.l5      0.0246491  0.0188754   1.306   0.1918  
+Lufthansa.l5     0.0016443  0.0199370   0.082   0.9343  
+Latam.l5         0.0109557  0.0200071   0.548   0.5841  
+AirFranceKLM.l5  0.0033621  0.0148186   0.227   0.8205  
+Japan.l6        -0.0252080  0.0259025  -0.973   0.3306  
+IAG.l6           0.0077273  0.0174509   0.443   0.6580  
+ChinaSouth.l6    0.0335399  0.0137135   2.446   0.0146 *
+ChinaEast.l6     0.0043125  0.0132816   0.325   0.7455  
+Delta.l6         0.0045906  0.0252074   0.182   0.8555  
+United.l6       -0.0099560  0.0227850  -0.437   0.6622  
+American.l6      0.0144728  0.0189058   0.766   0.4441  
+Lufthansa.l6    -0.0162728  0.0199174  -0.817   0.4140  
+Latam.l6        -0.0052572  0.0199242  -0.264   0.7919  
+AirFranceKLM.l6  0.0079975  0.0148464   0.539   0.5902  
+Japan.l7         0.0327025  0.0258967   1.263   0.2069  
+IAG.l7           0.0194200  0.0174025   1.116   0.2646  
+ChinaSouth.l7   -0.0119861  0.0137016  -0.875   0.3818  
+ChinaEast.l7     0.0020833  0.0132615   0.157   0.8752  
+Delta.l7         0.0181647  0.0251135   0.723   0.4696  
+United.l7        0.0205270  0.0227879   0.901   0.3678  
+American.l7     -0.0306654  0.0189056  -1.622   0.1050  
+Lufthansa.l7    -0.0138945  0.0199149  -0.698   0.4855  
+Latam.l7         0.0027521  0.0199020   0.138   0.8900  
+AirFranceKLM.l7 -0.0166409  0.0148033  -1.124   0.2611  
+Japan.l8         0.0006222  0.0258358   0.024   0.9808  
+IAG.l8          -0.0168795  0.0173059  -0.975   0.3295  
+ChinaSouth.l8    0.0029702  0.0136996   0.217   0.8284  
+ChinaEast.l8    -0.0143220  0.0132666  -1.080   0.2805  
+Delta.l8         0.0018096  0.0251125   0.072   0.9426  
+United.l8       -0.0028254  0.0228256  -0.124   0.9015  
+American.l8      0.0082579  0.0189232   0.436   0.6626  
+Lufthansa.l8     0.0100776  0.0198880   0.507   0.6124  
+Latam.l8        -0.0194246  0.0199576  -0.973   0.3306  
+AirFranceKLM.l8 -0.0090518  0.0146693  -0.617   0.5373  
+Japan.l9        -0.0114586  0.0256978  -0.446   0.6557  
+IAG.l9           0.0005223  0.0173064   0.030   0.9759  
+ChinaSouth.l9    0.0086768  0.0136316   0.637   0.5245  
+ChinaEast.l9    -0.0182554  0.0133681  -1.366   0.1723  
+Delta.l9         0.0091389  0.0249817   0.366   0.7145  
+United.l9       -0.0179678  0.0227027  -0.791   0.4288  
+American.l9      0.0042672  0.0186869   0.228   0.8194  
+Lufthansa.l9     0.0162038  0.0198938   0.815   0.4155  
+Latam.l9         0.0104016  0.0198355   0.524   0.6001  
+AirFranceKLM.l9 -0.0184776  0.0144596  -1.278   0.2015  
+const            0.0004318  0.0003622   1.192   0.2333  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.01415 on 1509 degrees of freedom
+Multiple R-Squared: 0.05758,	Adjusted R-squared: 0.001368 
+F-statistic: 1.024 on 90 and 1509 DF,  p-value: 0.4198 
+
+
+Estimation results for equation IAG: 
+==================================== 
+IAG = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)   
+Japan.l1        -0.0087966  0.0396028  -0.222  0.82425   
+IAG.l1           0.0143082  0.0262850   0.544  0.58628   
+ChinaSouth.l1    0.0034910  0.0209401   0.167  0.86762   
+ChinaEast.l1     0.0230537  0.0205398   1.122  0.26187   
+Delta.l1         0.0548159  0.0383400   1.430  0.15300   
+United.l1        0.0443070  0.0351862   1.259  0.20815   
+American.l1      0.0181647  0.0290471   0.625  0.53183   
+Lufthansa.l1    -0.0358821  0.0297701  -1.205  0.22827   
+Latam.l1         0.0057525  0.0305390   0.188  0.85061   
+AirFranceKLM.l1 -0.0350054  0.0227140  -1.541  0.12349   
+Japan.l2        -0.0262672  0.0397417  -0.661  0.50875   
+IAG.l2          -0.0796099  0.0264515  -3.010  0.00266 **
+ChinaSouth.l2    0.0068332  0.0208003   0.329  0.74257   
+ChinaEast.l2     0.0221749  0.0205021   1.082  0.27961   
+Delta.l2         0.0480313  0.0383744   1.252  0.21089   
+United.l2       -0.0114771  0.0351643  -0.326  0.74418   
+American.l2      0.0542060  0.0290265   1.867  0.06203 . 
+Lufthansa.l2     0.0032218  0.0301945   0.107  0.91504   
+Latam.l2        -0.0192750  0.0307018  -0.628  0.53022   
+AirFranceKLM.l2  0.0148055  0.0226860   0.653  0.51410   
+Japan.l3        -0.0195161  0.0397616  -0.491  0.62362   
+IAG.l3          -0.0560482  0.0265797  -2.109  0.03514 * 
+ChinaSouth.l3   -0.0072276  0.0207991  -0.347  0.72827   
+ChinaEast.l3     0.0066483  0.0203254   0.327  0.74364   
+Delta.l3        -0.0424617  0.0386262  -1.099  0.27181   
+United.l3        0.0319263  0.0350527   0.911  0.36254   
+American.l3      0.0453877  0.0289400   1.568  0.11701   
+Lufthansa.l3     0.0329964  0.0305972   1.078  0.28102   
+Latam.l3        -0.0037305  0.0307044  -0.121  0.90331   
+AirFranceKLM.l3 -0.0032199  0.0226757  -0.142  0.88710   
+Japan.l4         0.0408673  0.0396800   1.030  0.30321   
+IAG.l4          -0.0422193  0.0267622  -1.578  0.11487   
+ChinaSouth.l4    0.0482165  0.0209504   2.301  0.02150 * 
+ChinaEast.l4     0.0184943  0.0202860   0.912  0.36208   
+Delta.l4        -0.0471145  0.0386294  -1.220  0.22279   
+United.l4        0.0090523  0.0350918   0.258  0.79647   
+American.l4      0.0304511  0.0289506   1.052  0.29305   
+Lufthansa.l4     0.0014069  0.0304493   0.046  0.96315   
+Latam.l4         0.0318081  0.0307173   1.036  0.30060   
+AirFranceKLM.l4  0.0065166  0.0227089   0.287  0.77418   
+Japan.l5        -0.0010726  0.0397494  -0.027  0.97848   
+IAG.l5          -0.0331247  0.0268024  -1.236  0.21669   
+ChinaSouth.l5   -0.0122456  0.0210066  -0.583  0.56002   
+ChinaEast.l5    -0.0230989  0.0203721  -1.134  0.25704   
+Delta.l5         0.0044200  0.0386784   0.114  0.90903   
+United.l5       -0.0316125  0.0350213  -0.903  0.36685   
+American.l5      0.0383392  0.0289236   1.326  0.18520   
+Lufthansa.l5    -0.0590910  0.0305503  -1.934  0.05327 . 
+Latam.l5         0.0143639  0.0306577   0.469  0.63948   
+AirFranceKLM.l5 -0.0456516  0.0227072  -2.010  0.04456 * 
+Japan.l6        -0.0342531  0.0396915  -0.863  0.38828   
+IAG.l6           0.0187622  0.0267408   0.702  0.48302   
+ChinaSouth.l6   -0.0062906  0.0210138  -0.299  0.76471   
+ChinaEast.l6     0.0120596  0.0203519   0.593  0.55357   
+Delta.l6        -0.0158432  0.0386263  -0.410  0.68174   
+United.l6        0.0610449  0.0349143   1.748  0.08060 . 
+American.l6     -0.0347737  0.0289701  -1.200  0.23020   
+Lufthansa.l6    -0.0120676  0.0305202  -0.395  0.69261   
+Latam.l6        -0.0033106  0.0305307  -0.108  0.91367   
+AirFranceKLM.l6  0.0114060  0.0227498   0.501  0.61619   
+Japan.l7         0.0097135  0.0396827   0.245  0.80666   
+IAG.l7          -0.0006601  0.0266666  -0.025  0.98026   
+ChinaSouth.l7    0.0220396  0.0209955   1.050  0.29401   
+ChinaEast.l7    -0.0279581  0.0203212  -1.376  0.16908   
+Delta.l7        -0.0115286  0.0384825  -0.300  0.76454   
+United.l7        0.0298649  0.0349189   0.855  0.39254   
+American.l7     -0.0038292  0.0289699  -0.132  0.89486   
+Lufthansa.l7     0.0534932  0.0305165   1.753  0.07982 . 
+Latam.l7        -0.0731254  0.0304967  -2.398  0.01661 * 
+AirFranceKLM.l7  0.0034319  0.0226837   0.151  0.87976   
+Japan.l8        -0.0370289  0.0395893  -0.935  0.34977   
+IAG.l8          -0.0415478  0.0265186  -1.567  0.11738   
+ChinaSouth.l8    0.0056546  0.0209925   0.269  0.78769   
+ChinaEast.l8     0.0584050  0.0203289   2.873  0.00412 **
+Delta.l8         0.0282027  0.0384809   0.733  0.46373   
+United.l8       -0.0015051  0.0349766  -0.043  0.96568   
+American.l8      0.0106941  0.0289969   0.369  0.71233   
+Lufthansa.l8     0.0199846  0.0304752   0.656  0.51208   
+Latam.l8        -0.0119802  0.0305818  -0.392  0.69530   
+AirFranceKLM.l8 -0.0435124  0.0224785  -1.936  0.05309 . 
+Japan.l9        -0.0011105  0.0393778  -0.028  0.97751   
+IAG.l9           0.0196414  0.0265194   0.741  0.45903   
+ChinaSouth.l9   -0.0174008  0.0208883  -0.833  0.40496   
+ChinaEast.l9    -0.0056008  0.0204845  -0.273  0.78457   
+Delta.l9         0.0039852  0.0382806   0.104  0.91710   
+United.l9        0.0170506  0.0347884   0.490  0.62412   
+American.l9      0.0196331  0.0286348   0.686  0.49305   
+Lufthansa.l9     0.0087672  0.0304842   0.288  0.77369   
+Latam.l9        -0.0162872  0.0303947  -0.536  0.59214   
+AirFranceKLM.l9  0.0123626  0.0221571   0.558  0.57696   
+const            0.0004147  0.0005550   0.747  0.45499   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02168 on 1509 degrees of freedom
+Multiple R-Squared: 0.07333,	Adjusted R-squared: 0.01806 
+F-statistic: 1.327 on 90 and 1509 DF,  p-value: 0.02462 
+
+
+Estimation results for equation ChinaSouth: 
+=========================================== 
+ChinaSouth = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -8.103e-03  3.549e-02  -0.228   0.8194    
+IAG.l1           2.559e-02  2.355e-02   1.087   0.2774    
+ChinaSouth.l1    1.988e-03  1.876e-02   0.106   0.9156    
+ChinaEast.l1     1.638e-02  1.840e-02   0.890   0.3736    
+Delta.l1         4.043e-03  3.435e-02   0.118   0.9063    
+United.l1       -7.599e-02  3.153e-02  -2.410   0.0161 *  
+American.l1      5.699e-02  2.603e-02   2.189   0.0287 *  
+Lufthansa.l1     2.765e-02  2.668e-02   1.036   0.3002    
+Latam.l1         4.253e-03  2.736e-02   0.155   0.8765    
+AirFranceKLM.l1  2.099e-02  2.035e-02   1.031   0.3025    
+Japan.l2         7.831e-03  3.561e-02   0.220   0.8260    
+IAG.l2          -4.207e-02  2.370e-02  -1.775   0.0761 .  
+ChinaSouth.l2   -3.435e-02  1.864e-02  -1.843   0.0655 .  
+ChinaEast.l2    -7.987e-03  1.837e-02  -0.435   0.6638    
+Delta.l2        -1.589e-02  3.439e-02  -0.462   0.6440    
+United.l2        5.612e-02  3.151e-02   1.781   0.0751 .  
+American.l2     -2.260e-02  2.601e-02  -0.869   0.3850    
+Lufthansa.l2     4.203e-03  2.706e-02   0.155   0.8766    
+Latam.l2         2.144e-02  2.751e-02   0.779   0.4359    
+AirFranceKLM.l2  2.139e-02  2.033e-02   1.052   0.2928    
+Japan.l3        -3.288e-02  3.563e-02  -0.923   0.3562    
+IAG.l3           1.136e-02  2.382e-02   0.477   0.6333    
+ChinaSouth.l3    4.699e-03  1.864e-02   0.252   0.8010    
+ChinaEast.l3    -1.068e-02  1.821e-02  -0.587   0.5576    
+Delta.l3        -3.832e-02  3.461e-02  -1.107   0.2684    
+United.l3       -1.840e-02  3.141e-02  -0.586   0.5581    
+American.l3      3.985e-02  2.593e-02   1.537   0.1245    
+Lufthansa.l3    -3.156e-02  2.742e-02  -1.151   0.2498    
+Latam.l3        -1.326e-02  2.751e-02  -0.482   0.6298    
+AirFranceKLM.l3 -6.420e-03  2.032e-02  -0.316   0.7521    
+Japan.l4         3.098e-02  3.556e-02   0.871   0.3838    
+IAG.l4          -3.760e-02  2.398e-02  -1.568   0.1171    
+ChinaSouth.l4   -2.304e-03  1.877e-02  -0.123   0.9023    
+ChinaEast.l4    -1.212e-02  1.818e-02  -0.667   0.5051    
+Delta.l4        -4.046e-03  3.461e-02  -0.117   0.9070    
+United.l4       -3.163e-02  3.144e-02  -1.006   0.3146    
+American.l4      3.352e-02  2.594e-02   1.292   0.1964    
+Lufthansa.l4     4.795e-03  2.728e-02   0.176   0.8605    
+Latam.l4         3.717e-02  2.752e-02   1.351   0.1771    
+AirFranceKLM.l4 -3.135e-02  2.035e-02  -1.541   0.1236    
+Japan.l5         3.114e-03  3.562e-02   0.087   0.9303    
+IAG.l5          -4.126e-03  2.402e-02  -0.172   0.8636    
+ChinaSouth.l5    1.720e-02  1.882e-02   0.914   0.3611    
+ChinaEast.l5    -1.686e-03  1.825e-02  -0.092   0.9264    
+Delta.l5         3.244e-02  3.466e-02   0.936   0.3495    
+United.l5        1.613e-02  3.138e-02   0.514   0.6073    
+American.l5     -1.670e-02  2.592e-02  -0.644   0.5195    
+Lufthansa.l5     3.910e-02  2.737e-02   1.428   0.1534    
+Latam.l5        -7.903e-03  2.747e-02  -0.288   0.7736    
+AirFranceKLM.l5  1.373e-02  2.035e-02   0.675   0.4999    
+Japan.l6         2.645e-02  3.557e-02   0.744   0.4572    
+IAG.l6          -1.231e-02  2.396e-02  -0.514   0.6075    
+ChinaSouth.l6   -8.151e-03  1.883e-02  -0.433   0.6652    
+ChinaEast.l6     1.769e-02  1.824e-02   0.970   0.3323    
+Delta.l6         6.623e-02  3.461e-02   1.913   0.0559 .  
+United.l6        2.165e-02  3.129e-02   0.692   0.4890    
+American.l6     -5.015e-02  2.596e-02  -1.932   0.0536 .  
+Lufthansa.l6    -1.407e-02  2.735e-02  -0.515   0.6069    
+Latam.l6         2.739e-02  2.736e-02   1.001   0.3169    
+AirFranceKLM.l6  1.795e-02  2.038e-02   0.881   0.3786    
+Japan.l7         8.876e-03  3.556e-02   0.250   0.8029    
+IAG.l7           2.056e-02  2.389e-02   0.860   0.3897    
+ChinaSouth.l7    9.296e-03  1.881e-02   0.494   0.6213    
+ChinaEast.l7     2.244e-03  1.821e-02   0.123   0.9019    
+Delta.l7        -9.385e-03  3.448e-02  -0.272   0.7855    
+United.l7       -3.585e-02  3.129e-02  -1.146   0.2520    
+American.l7      2.855e-02  2.596e-02   1.100   0.2716    
+Lufthansa.l7    -1.481e-03  2.734e-02  -0.054   0.9568    
+Latam.l7        -4.113e-02  2.733e-02  -1.505   0.1325    
+AirFranceKLM.l7  1.240e-02  2.033e-02   0.610   0.5419    
+Japan.l8        -5.495e-02  3.547e-02  -1.549   0.1216    
+IAG.l8           1.630e-02  2.376e-02   0.686   0.4927    
+ChinaSouth.l8   -5.587e-03  1.881e-02  -0.297   0.7665    
+ChinaEast.l8     9.004e-02  1.822e-02   4.943 8.55e-07 ***
+Delta.l8        -8.799e-02  3.448e-02  -2.552   0.0108 *  
+United.l8        6.300e-02  3.134e-02   2.010   0.0446 *  
+American.l8      2.507e-02  2.598e-02   0.965   0.3347    
+Lufthansa.l8    -2.174e-02  2.731e-02  -0.796   0.4261    
+Latam.l8         1.515e-02  2.740e-02   0.553   0.5805    
+AirFranceKLM.l8  1.448e-02  2.014e-02   0.719   0.4723    
+Japan.l9        -4.717e-03  3.528e-02  -0.134   0.8937    
+IAG.l9          -1.150e-02  2.376e-02  -0.484   0.6284    
+ChinaSouth.l9   -1.480e-02  1.872e-02  -0.791   0.4293    
+ChinaEast.l9     6.697e-01  1.836e-02  36.487  < 2e-16 ***
+Delta.l9        -2.827e-02  3.430e-02  -0.824   0.4099    
+United.l9        6.646e-03  3.117e-02   0.213   0.8312    
+American.l9      1.091e-03  2.566e-02   0.043   0.9661    
+Lufthansa.l9     1.845e-02  2.732e-02   0.676   0.4994    
+Latam.l9         4.178e-03  2.724e-02   0.153   0.8781    
+AirFranceKLM.l9 -3.364e-03  1.985e-02  -0.169   0.8655    
+const           -3.953e-05  4.973e-04  -0.079   0.9367    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.01942 on 1509 degrees of freedom
+Multiple R-Squared: 0.5096,	Adjusted R-squared: 0.4803 
+F-statistic: 17.42 on 90 and 1509 DF,  p-value: < 2.2e-16 
+
+
+Estimation results for equation ChinaEast: 
+========================================== 
+ChinaEast = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -0.0062414  0.0493845  -0.126  0.89944    
+IAG.l1           0.0725648  0.0327773   2.214  0.02699 *  
+ChinaSouth.l1   -0.0167410  0.0261122  -0.641  0.52154    
+ChinaEast.l1     0.0707829  0.0256131   2.764  0.00579 ** 
+Delta.l1         0.0590856  0.0478099   1.236  0.21671    
+United.l1       -0.0447073  0.0438770  -1.019  0.30840    
+American.l1     -0.0149394  0.0362216  -0.412  0.68007    
+Lufthansa.l1    -0.0504349  0.0371232  -1.359  0.17448    
+Latam.l1         0.0464065  0.0380820   1.219  0.22319    
+AirFranceKLM.l1  0.0158585  0.0283243   0.560  0.57564    
+Japan.l2        -0.0070104  0.0495577  -0.141  0.88753    
+IAG.l2          -0.0169660  0.0329850  -0.514  0.60708    
+ChinaSouth.l2   -0.0035831  0.0259379  -0.138  0.89015    
+ChinaEast.l2    -0.0177572  0.0255661  -0.695  0.48744    
+Delta.l2        -0.0742644  0.0478528  -1.552  0.12089    
+United.l2        0.0276385  0.0438497   0.630  0.52859    
+American.l2      0.0143314  0.0361959   0.396  0.69221    
+Lufthansa.l2     0.0948294  0.0376524   2.519  0.01189 *  
+Latam.l2        -0.0223059  0.0382850  -0.583  0.56023    
+AirFranceKLM.l2  0.0286640  0.0282893   1.013  0.31111    
+Japan.l3         0.0215231  0.0495825   0.434  0.66429    
+IAG.l3          -0.0540521  0.0331448  -1.631  0.10314    
+ChinaSouth.l3    0.0424669  0.0259364   1.637  0.10177    
+ChinaEast.l3     0.0286285  0.0253458   1.130  0.25886    
+Delta.l3         0.0004791  0.0481668   0.010  0.99206    
+United.l3       -0.0485454  0.0437106  -1.111  0.26691    
+American.l3      0.0301317  0.0360881   0.835  0.40388    
+Lufthansa.l3     0.0469695  0.0381546   1.231  0.21850    
+Latam.l3        -0.0042824  0.0382883  -0.112  0.91096    
+AirFranceKLM.l3 -0.0279231  0.0282766  -0.987  0.32356    
+Japan.l4        -0.0328024  0.0494809  -0.663  0.50748    
+IAG.l4           0.0467214  0.0333724   1.400  0.16172    
+ChinaSouth.l4   -0.0627697  0.0261251  -2.403  0.01640 *  
+ChinaEast.l4    -0.0291551  0.0252966  -1.153  0.24928    
+Delta.l4        -0.0391905  0.0481707  -0.814  0.41602    
+United.l4        0.0008574  0.0437593   0.020  0.98437    
+American.l4      0.0275201  0.0361013   0.762  0.44600    
+Lufthansa.l4     0.0124094  0.0379702   0.327  0.74385    
+Latam.l4        -0.0089982  0.0383043  -0.235  0.81431    
+AirFranceKLM.l4  0.0104521  0.0283179   0.369  0.71210    
+Japan.l5        -0.0492578  0.0495674  -0.994  0.32050    
+IAG.l5           0.0218116  0.0334225   0.653  0.51411    
+ChinaSouth.l5    0.0372261  0.0261951   1.421  0.15549    
+ChinaEast.l5    -0.0030443  0.0254040  -0.120  0.90463    
+Delta.l5        -0.0489052  0.0482319  -1.014  0.31076    
+United.l5       -0.0440634  0.0436715  -1.009  0.31315    
+American.l5      0.0345305  0.0360677   0.957  0.33853    
+Lufthansa.l5    -0.0770419  0.0380961  -2.022  0.04332 *  
+Latam.l5        -0.0056449  0.0382301  -0.148  0.88263    
+AirFranceKLM.l5 -0.0072943  0.0283158  -0.258  0.79675    
+Japan.l6        -0.0022918  0.0494952  -0.046  0.96308    
+IAG.l6          -0.0149484  0.0333457  -0.448  0.65401    
+ChinaSouth.l6   -0.0154553  0.0262041  -0.590  0.55541    
+ChinaEast.l6    -0.0420670  0.0253788  -1.658  0.09761 .  
+Delta.l6         0.0433445  0.0481669   0.900  0.36833    
+United.l6        0.0539485  0.0435381   1.239  0.21550    
+American.l6     -0.0507898  0.0361257  -1.406  0.15995    
+Lufthansa.l6     0.0388920  0.0380587   1.022  0.30699    
+Latam.l6        -0.0166158  0.0380717  -0.436  0.66258    
+AirFranceKLM.l6  0.0534755  0.0283689   1.885  0.05962 .  
+Japan.l7        -0.0188140  0.0494842  -0.380  0.70385    
+IAG.l7           0.0528773  0.0332531   1.590  0.11201    
+ChinaSouth.l7    0.0914744  0.0261813   3.494  0.00049 ***
+ChinaEast.l7    -0.0318179  0.0253405  -1.256  0.20945    
+Delta.l7         0.0913015  0.0479876   1.903  0.05728 .  
+United.l7       -0.0752334  0.0435438  -1.728  0.08424 .  
+American.l7     -0.0365611  0.0361253  -1.012  0.31167    
+Lufthansa.l7    -0.0963837  0.0380539  -2.533  0.01142 *  
+Latam.l7         0.0045758  0.0380292   0.120  0.90424    
+AirFranceKLM.l7 -0.0483294  0.0282865  -1.709  0.08774 .  
+Japan.l8        -0.0294217  0.0493677  -0.596  0.55128    
+IAG.l8           0.0113615  0.0330686   0.344  0.73121    
+ChinaSouth.l8   -0.0390129  0.0261776  -1.490  0.13635    
+ChinaEast.l8     0.0372718  0.0253501   1.470  0.14169    
+Delta.l8        -0.0435693  0.0479856  -0.908  0.36404    
+United.l8        0.0185961  0.0436157   0.426  0.66991    
+American.l8     -0.0057189  0.0361590  -0.158  0.87435    
+Lufthansa.l8     0.0281635  0.0380025   0.741  0.45875    
+Latam.l8         0.0314291  0.0381355   0.824  0.40999    
+AirFranceKLM.l8  0.0021649  0.0280306   0.077  0.93845    
+Japan.l9         0.0080847  0.0491040   0.165  0.86925    
+IAG.l9           0.0485167  0.0330696   1.467  0.14255    
+ChinaSouth.l9   -0.0297392  0.0260477  -1.142  0.25375    
+ChinaEast.l9    -0.0052509  0.0255441  -0.206  0.83716    
+Delta.l9        -0.0762765  0.0477358  -1.598  0.11028    
+United.l9        0.1024000  0.0433810   2.360  0.01838 *  
+American.l9     -0.0677107  0.0357075  -1.896  0.05812 .  
+Lufthansa.l9    -0.0681247  0.0380137  -1.792  0.07332 .  
+Latam.l9        -0.0172599  0.0379022  -0.455  0.64890    
+AirFranceKLM.l9 -0.0269034  0.0276298  -0.974  0.33036    
+const            0.0003364  0.0006921   0.486  0.62695    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02703 on 1509 degrees of freedom
+Multiple R-Squared: 0.08216,	Adjusted R-squared: 0.02742 
+F-statistic: 1.501 on 90 and 1509 DF,  p-value: 0.002145 
+
+
+Estimation results for equation Delta: 
+====================================== 
+Delta = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -5.583e-02  4.173e-02  -1.338  0.18111    
+IAG.l1           1.313e-01  2.769e-02   4.741 2.33e-06 ***
+ChinaSouth.l1    7.147e-03  2.206e-02   0.324  0.74602    
+ChinaEast.l1     1.068e-02  2.164e-02   0.494  0.62157    
+Delta.l1        -9.366e-02  4.039e-02  -2.319  0.02054 *  
+United.l1        2.484e-02  3.707e-02   0.670  0.50292    
+American.l1      1.651e-03  3.060e-02   0.054  0.95699    
+Lufthansa.l1    -4.600e-04  3.137e-02  -0.015  0.98830    
+Latam.l1         6.993e-02  3.218e-02   2.173  0.02991 *  
+AirFranceKLM.l1  1.529e-02  2.393e-02   0.639  0.52285    
+Japan.l2         3.734e-02  4.187e-02   0.892  0.37265    
+IAG.l2           6.582e-02  2.787e-02   2.362  0.01831 *  
+ChinaSouth.l2    1.913e-02  2.191e-02   0.873  0.38293    
+ChinaEast.l2    -1.457e-02  2.160e-02  -0.674  0.50020    
+Delta.l2        -4.616e-04  4.043e-02  -0.011  0.99089    
+United.l2       -1.023e-01  3.705e-02  -2.760  0.00584 ** 
+American.l2      5.209e-02  3.058e-02   1.703  0.08875 .  
+Lufthansa.l2    -7.935e-03  3.181e-02  -0.249  0.80307    
+Latam.l2        -4.649e-02  3.235e-02  -1.437  0.15082    
+AirFranceKLM.l2 -1.349e-02  2.390e-02  -0.565  0.57247    
+Japan.l3        -6.963e-03  4.189e-02  -0.166  0.86802    
+IAG.l3           7.596e-02  2.800e-02   2.713  0.00675 ** 
+ChinaSouth.l3    1.414e-02  2.191e-02   0.645  0.51885    
+ChinaEast.l3    -1.979e-04  2.141e-02  -0.009  0.99263    
+Delta.l3        -5.477e-02  4.070e-02  -1.346  0.17859    
+United.l3        3.779e-02  3.693e-02   1.023  0.30630    
+American.l3      7.753e-03  3.049e-02   0.254  0.79932    
+Lufthansa.l3    -3.047e-03  3.224e-02  -0.095  0.92472    
+Latam.l3        -2.292e-02  3.235e-02  -0.709  0.47868    
+AirFranceKLM.l3  9.356e-03  2.389e-02   0.392  0.69540    
+Japan.l4        -3.570e-02  4.181e-02  -0.854  0.39334    
+IAG.l4          -7.381e-05  2.820e-02  -0.003  0.99791    
+ChinaSouth.l4    4.072e-02  2.207e-02   1.845  0.06527 .  
+ChinaEast.l4    -2.652e-02  2.137e-02  -1.241  0.21495    
+Delta.l4         9.230e-02  4.070e-02   2.268  0.02348 *  
+United.l4       -5.396e-02  3.697e-02  -1.459  0.14466    
+American.l4      1.603e-03  3.050e-02   0.053  0.95810    
+Lufthansa.l4     4.290e-02  3.208e-02   1.337  0.18135    
+Latam.l4         4.380e-03  3.236e-02   0.135  0.89237    
+AirFranceKLM.l4 -4.760e-02  2.393e-02  -1.990  0.04682 *  
+Japan.l5        -5.976e-02  4.188e-02  -1.427  0.15382    
+IAG.l5           7.433e-03  2.824e-02   0.263  0.79243    
+ChinaSouth.l5   -5.954e-03  2.213e-02  -0.269  0.78795    
+ChinaEast.l5    -2.699e-02  2.146e-02  -1.257  0.20884    
+Delta.l5         1.148e-01  4.075e-02   2.816  0.00493 ** 
+United.l5       -5.504e-02  3.690e-02  -1.492  0.13600    
+American.l5     -5.295e-02  3.047e-02  -1.737  0.08251 .  
+Lufthansa.l5    -1.256e-02  3.219e-02  -0.390  0.69652    
+Latam.l5         5.218e-03  3.230e-02   0.162  0.87170    
+AirFranceKLM.l5 -2.229e-02  2.392e-02  -0.932  0.35167    
+Japan.l6         3.456e-02  4.182e-02   0.826  0.40875    
+IAG.l6          -6.248e-03  2.817e-02  -0.222  0.82453    
+ChinaSouth.l6   -2.007e-02  2.214e-02  -0.907  0.36478    
+ChinaEast.l6    -1.325e-02  2.144e-02  -0.618  0.53676    
+Delta.l6         2.047e-02  4.070e-02   0.503  0.61505    
+United.l6       -4.442e-02  3.679e-02  -1.208  0.22738    
+American.l6      1.129e-03  3.052e-02   0.037  0.97051    
+Lufthansa.l6     8.491e-03  3.216e-02   0.264  0.79177    
+Latam.l6        -2.289e-02  3.217e-02  -0.712  0.47685    
+AirFranceKLM.l6  1.328e-02  2.397e-02   0.554  0.57966    
+Japan.l7         2.021e-02  4.181e-02   0.483  0.62892    
+IAG.l7           7.441e-03  2.810e-02   0.265  0.79116    
+ChinaSouth.l7   -2.105e-02  2.212e-02  -0.951  0.34157    
+ChinaEast.l7    -6.713e-03  2.141e-02  -0.314  0.75391    
+Delta.l7        -5.826e-02  4.054e-02  -1.437  0.15093    
+United.l7       -4.675e-02  3.679e-02  -1.271  0.20401    
+American.l7      7.132e-02  3.052e-02   2.337  0.01958 *  
+Lufthansa.l7    -4.421e-02  3.215e-02  -1.375  0.16936    
+Latam.l7        -2.176e-03  3.213e-02  -0.068  0.94601    
+AirFranceKLM.l7 -2.776e-04  2.390e-02  -0.012  0.99073    
+Japan.l8        -5.836e-02  4.171e-02  -1.399  0.16200    
+IAG.l8          -1.450e-02  2.794e-02  -0.519  0.60377    
+ChinaSouth.l8   -1.729e-03  2.212e-02  -0.078  0.93771    
+ChinaEast.l8     4.663e-03  2.142e-02   0.218  0.82767    
+Delta.l8        -4.176e-02  4.054e-02  -1.030  0.30320    
+United.l8        8.050e-03  3.685e-02   0.218  0.82711    
+American.l8     -2.572e-02  3.055e-02  -0.842  0.39994    
+Lufthansa.l8    -1.642e-02  3.211e-02  -0.511  0.60919    
+Latam.l8         3.028e-02  3.222e-02   0.940  0.34748    
+AirFranceKLM.l8 -2.526e-02  2.368e-02  -1.067  0.28623    
+Japan.l9         5.646e-03  4.149e-02   0.136  0.89178    
+IAG.l9           2.174e-02  2.794e-02   0.778  0.43662    
+ChinaSouth.l9    3.474e-02  2.201e-02   1.578  0.11466    
+ChinaEast.l9     1.683e-02  2.158e-02   0.780  0.43555    
+Delta.l9        -5.962e-02  4.033e-02  -1.478  0.13954    
+United.l9        7.554e-02  3.665e-02   2.061  0.03947 *  
+American.l9     -2.899e-02  3.017e-02  -0.961  0.33672    
+Lufthansa.l9    -3.617e-02  3.212e-02  -1.126  0.26022    
+Latam.l9        -1.704e-02  3.202e-02  -0.532  0.59475    
+AirFranceKLM.l9 -3.174e-02  2.334e-02  -1.360  0.17414    
+const            6.220e-04  5.847e-04   1.064  0.28760    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02284 on 1509 degrees of freedom
+Multiple R-Squared: 0.08242,	Adjusted R-squared: 0.02769 
+F-statistic: 1.506 on 90 and 1509 DF,  p-value: 0.001983 
+
+
+Estimation results for equation United: 
+======================================= 
+United = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -0.0193351  0.0462037  -0.418 0.675659    
+IAG.l1           0.1128023  0.0306662   3.678 0.000243 ***
+ChinaSouth.l1    0.0195156  0.0244304   0.799 0.424518    
+ChinaEast.l1    -0.0105037  0.0239633  -0.438 0.661213    
+Delta.l1        -0.0980320  0.0447304  -2.192 0.028560 *  
+United.l1        0.0169705  0.0410509   0.413 0.679371    
+American.l1      0.0432693  0.0338886   1.277 0.201866    
+Lufthansa.l1    -0.0380153  0.0347321  -1.095 0.273898    
+Latam.l1         0.0794405  0.0356292   2.230 0.025918 *  
+AirFranceKLM.l1  0.0011182  0.0264999   0.042 0.966349    
+Japan.l2         0.0389393  0.0463657   0.840 0.401138    
+IAG.l2           0.0782718  0.0308604   2.536 0.011303 *  
+ChinaSouth.l2    0.0253876  0.0242672   1.046 0.295651    
+ChinaEast.l2    -0.0158795  0.0239194  -0.664 0.506872    
+Delta.l2        -0.0502199  0.0447706  -1.122 0.262161    
+United.l2       -0.0538101  0.0410254  -1.312 0.189844    
+American.l2      0.0729077  0.0338645   2.153 0.031483 *  
+Lufthansa.l2    -0.0047326  0.0352272  -0.134 0.893148    
+Latam.l2        -0.0714095  0.0358191  -1.994 0.046374 *  
+AirFranceKLM.l2 -0.0272516  0.0264672  -1.030 0.303346    
+Japan.l3        -0.0048598  0.0463889  -0.105 0.916578    
+IAG.l3           0.0168095  0.0310100   0.542 0.587851    
+ChinaSouth.l3   -0.0015978  0.0242658  -0.066 0.947508    
+ChinaEast.l3     0.0033616  0.0237132   0.142 0.887288    
+Delta.l3        -0.0805561  0.0450644  -1.788 0.074045 .  
+United.l3        0.0434355  0.0408952   1.062 0.288353    
+American.l3      0.0414425  0.0337637   1.227 0.219853    
+Lufthansa.l3    -0.0396617  0.0356971  -1.111 0.266719    
+Latam.l3         0.0221547  0.0358221   0.618 0.536363    
+AirFranceKLM.l3  0.0231149  0.0264553   0.874 0.382402    
+Japan.l4        -0.0354126  0.0462938  -0.765 0.444419    
+IAG.l4           0.0257117  0.0312229   0.823 0.410360    
+ChinaSouth.l4    0.0453850  0.0244424   1.857 0.063532 .  
+ChinaEast.l4     0.0243175  0.0236672   1.027 0.304361    
+Delta.l4         0.1187888  0.0450681   2.636 0.008481 ** 
+United.l4       -0.0601862  0.0409408  -1.470 0.141749    
+American.l4     -0.0450559  0.0337761  -1.334 0.182418    
+Lufthansa.l4     0.0213965  0.0355245   0.602 0.547064    
+Latam.l4         0.0182348  0.0358372   0.509 0.610950    
+AirFranceKLM.l4 -0.0682702  0.0264939  -2.577 0.010066 *  
+Japan.l5        -0.0779227  0.0463748  -1.680 0.093110 .  
+IAG.l5           0.0083573  0.0312697   0.267 0.789301    
+ChinaSouth.l5    0.0063153  0.0245079   0.258 0.796684    
+ChinaEast.l5    -0.0336253  0.0237677  -1.415 0.157349    
+Delta.l5         0.0931793  0.0451253   2.065 0.039103 *  
+United.l5       -0.0228379  0.0408586  -0.559 0.576280    
+American.l5     -0.0672987  0.0337446  -1.994 0.046293 *  
+Lufthansa.l5    -0.0044000  0.0356423  -0.123 0.901769    
+Latam.l5        -0.0190249  0.0357677  -0.532 0.594872    
+AirFranceKLM.l5 -0.0653806  0.0264920  -2.468 0.013700 *  
+Japan.l6         0.0501790  0.0463072   1.084 0.278710    
+IAG.l6           0.0011987  0.0311979   0.038 0.969355    
+ChinaSouth.l6   -0.0127358  0.0245163  -0.519 0.603501    
+ChinaEast.l6    -0.0018126  0.0237442  -0.076 0.939160    
+Delta.l6         0.0745816  0.0450645   1.655 0.098133 .  
+United.l6       -0.0788021  0.0407338  -1.935 0.053231 .  
+American.l6      0.0142745  0.0337988   0.422 0.672840    
+Lufthansa.l6    -0.0039075  0.0356073  -0.110 0.912631    
+Latam.l6        -0.0320150  0.0356195  -0.899 0.368901    
+AirFranceKLM.l6  0.0009965  0.0265417   0.038 0.970055    
+Japan.l7         0.0612933  0.0462969   1.324 0.185731    
+IAG.l7           0.0020777  0.0311113   0.067 0.946763    
+ChinaSouth.l7   -0.0072146  0.0244950  -0.295 0.768390    
+ChinaEast.l7    -0.0309674  0.0237083  -1.306 0.191689    
+Delta.l7        -0.0803815  0.0448967  -1.790 0.073596 .  
+United.l7       -0.0329096  0.0407391  -0.808 0.419325    
+American.l7      0.0487834  0.0337985   1.443 0.149127    
+Lufthansa.l7    -0.0616827  0.0356029  -1.733 0.083385 .  
+Latam.l7         0.0493843  0.0355798   1.388 0.165346    
+AirFranceKLM.l7  0.0349809  0.0264646   1.322 0.186434    
+Japan.l8        -0.0580393  0.0461879  -1.257 0.209097    
+IAG.l8           0.0297152  0.0309387   0.960 0.336980    
+ChinaSouth.l8    0.0118536  0.0244915   0.484 0.628464    
+ChinaEast.l8     0.0126092  0.0237173   0.532 0.595049    
+Delta.l8        -0.0297898  0.0448948  -0.664 0.507081    
+United.l8        0.0314202  0.0408064   0.770 0.441432    
+American.l8     -0.0431354  0.0338300  -1.275 0.202484    
+Lufthansa.l8    -0.0190326  0.0355547  -0.535 0.592518    
+Latam.l8        -0.0074994  0.0356792  -0.210 0.833548    
+AirFranceKLM.l8 -0.0170814  0.0262251  -0.651 0.514928    
+Japan.l9        -0.0063592  0.0459413  -0.138 0.889928    
+IAG.l9           0.0246796  0.0309396   0.798 0.425188    
+ChinaSouth.l9    0.0132252  0.0243699   0.543 0.587428    
+ChinaEast.l9     0.0176350  0.0238988   0.738 0.460687    
+Delta.l9        -0.0115328  0.0446611  -0.258 0.796266    
+United.l9        0.0332857  0.0405869   0.820 0.412282    
+American.l9     -0.0049524  0.0334076  -0.148 0.882172    
+Lufthansa.l9    -0.0168478  0.0355652  -0.474 0.635770    
+Latam.l9        -0.0109434  0.0354609  -0.309 0.757665    
+AirFranceKLM.l9 -0.0397589  0.0258502  -1.538 0.124246    
+const            0.0009784  0.0006475   1.511 0.130974    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02529 on 1509 degrees of freedom
+Multiple R-Squared: 0.07937,	Adjusted R-squared: 0.02446 
+F-statistic: 1.446 on 90 and 1509 DF,  p-value: 0.004925 
+
+
+Estimation results for equation American: 
+========================================= 
+American = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -0.0833288  0.0509236  -1.636  0.10198    
+IAG.l1           0.1415045  0.0337989   4.187 2.99e-05 ***
+ChinaSouth.l1    0.0097108  0.0269261   0.361  0.71841    
+ChinaEast.l1    -0.0184403  0.0264113  -0.698  0.48516    
+Delta.l1        -0.0980221  0.0492999  -1.988  0.04696 *  
+United.l1        0.0033733  0.0452445   0.075  0.94058    
+American.l1      0.0464318  0.0373505   1.243  0.21401    
+Lufthansa.l1     0.0111163  0.0382802   0.290  0.77156    
+Latam.l1         0.0309767  0.0392689   0.789  0.43033    
+AirFranceKLM.l1 -0.0075029  0.0292070  -0.257  0.79730    
+Japan.l2        -0.0277293  0.0511023  -0.543  0.58747    
+IAG.l2           0.0895448  0.0340130   2.633  0.00856 ** 
+ChinaSouth.l2   -0.0112774  0.0267462  -0.422  0.67335    
+ChinaEast.l2    -0.0306979  0.0263629  -1.164  0.24443    
+Delta.l2        -0.0478486  0.0493442  -0.970  0.33236    
+United.l2       -0.0761048  0.0452163  -1.683  0.09256 .  
+American.l2      0.0867119  0.0373240   2.323  0.02030 *  
+Lufthansa.l2    -0.0404658  0.0388259  -1.042  0.29747    
+Latam.l2        -0.0199944  0.0394782  -0.506  0.61260    
+AirFranceKLM.l2 -0.0067868  0.0291710  -0.233  0.81606    
+Japan.l3         0.0317427  0.0511278   0.621  0.53479    
+IAG.l3           0.0573518  0.0341778   1.678  0.09355 .  
+ChinaSouth.l3    0.0043795  0.0267447   0.164  0.86995    
+ChinaEast.l3     0.0181069  0.0261357   0.693  0.48854    
+Delta.l3        -0.0783651  0.0496680  -1.578  0.11483    
+United.l3        0.0513342  0.0450728   1.139  0.25492    
+American.l3      0.0257485  0.0372128   0.692  0.48909    
+Lufthansa.l3    -0.0262383  0.0393438  -0.667  0.50494    
+Latam.l3        -0.0323549  0.0394816  -0.819  0.41263    
+AirFranceKLM.l3  0.0417145  0.0291578   1.431  0.15274    
+Japan.l4        -0.0543626  0.0510230  -1.065  0.28684    
+IAG.l4           0.0006788  0.0344124   0.020  0.98426    
+ChinaSouth.l4    0.0306964  0.0269393   1.139  0.25469    
+ChinaEast.l4     0.0133659  0.0260849   0.512  0.60845    
+Delta.l4         0.0602101  0.0496720   1.212  0.22564    
+United.l4       -0.0893197  0.0451231  -1.979  0.04795 *  
+American.l4      0.0088708  0.0372265   0.238  0.81169    
+Lufthansa.l4     0.0470196  0.0391535   1.201  0.22998    
+Latam.l4         0.0069551  0.0394981   0.176  0.86025    
+AirFranceKLM.l4 -0.0594907  0.0292004  -2.037  0.04179 *  
+Japan.l5        -0.1004628  0.0511123  -1.966  0.04954 *  
+IAG.l5           0.0333026  0.0344641   0.966  0.33405    
+ChinaSouth.l5    0.0471624  0.0270115   1.746  0.08101 .  
+ChinaEast.l5    -0.0252669  0.0261957  -0.965  0.33493    
+Delta.l5         0.0995024  0.0497351   2.001  0.04561 *  
+United.l5       -0.0257489  0.0450325  -0.572  0.56755    
+American.l5     -0.0380741  0.0371918  -1.024  0.30613    
+Lufthansa.l5    -0.0251482  0.0392834  -0.640  0.52216    
+Latam.l5         0.0180923  0.0394216   0.459  0.64634    
+AirFranceKLM.l5 -0.0462339  0.0291983  -1.583  0.11353    
+Japan.l6         0.0746404  0.0510378   1.462  0.14382    
+IAG.l6           0.0006476  0.0343850   0.019  0.98498    
+ChinaSouth.l6   -0.0194142  0.0270208  -0.718  0.47257    
+ChinaEast.l6    -0.0009833  0.0261698  -0.038  0.97003    
+Delta.l6         0.0247224  0.0496681   0.498  0.61873    
+United.l6       -0.0423838  0.0448950  -0.944  0.34529    
+American.l6      0.0353198  0.0372516   0.948  0.34321    
+Lufthansa.l6    -0.0321690  0.0392448  -0.820  0.41252    
+Latam.l6        -0.0710439  0.0392582  -1.810  0.07055 .  
+AirFranceKLM.l6  0.0044867  0.0292530   0.153  0.87812    
+Japan.l7        -0.0006236  0.0510264  -0.012  0.99025    
+IAG.l7           0.0460321  0.0342895   1.342  0.17965    
+ChinaSouth.l7   -0.0485366  0.0269973  -1.798  0.07240 .  
+ChinaEast.l7    -0.0303590  0.0261302  -1.162  0.24549    
+Delta.l7        -0.0573787  0.0494832  -1.160  0.24641    
+United.l7       -0.0524893  0.0449009  -1.169  0.24259    
+American.l7      0.0647984  0.0372512   1.739  0.08215 .  
+Lufthansa.l7    -0.0307653  0.0392399  -0.784  0.43314    
+Latam.l7        -0.0345643  0.0392145  -0.881  0.37823    
+AirFranceKLM.l7  0.0044706  0.0291681   0.153  0.87820    
+Japan.l8        -0.0343208  0.0509063  -0.674  0.50029    
+IAG.l8          -0.0166547  0.0340993  -0.488  0.62533    
+ChinaSouth.l8    0.0032458  0.0269935   0.120  0.90431    
+ChinaEast.l8    -0.0033071  0.0261402  -0.127  0.89934    
+Delta.l8        -0.0614626  0.0494811  -1.242  0.21438    
+United.l8        0.0624863  0.0449750   1.389  0.16493    
+American.l8     -0.0642885  0.0372860  -1.724  0.08488 .  
+Lufthansa.l8     0.0096596  0.0391868   0.246  0.80533    
+Latam.l8         0.0087650  0.0393240   0.223  0.82365    
+AirFranceKLM.l8 -0.0454852  0.0289042  -1.574  0.11578    
+Japan.l9         0.0430929  0.0506344   0.851  0.39487    
+IAG.l9           0.0394530  0.0341003   1.157  0.24747    
+ChinaSouth.l9    0.0425214  0.0268595   1.583  0.11361    
+ChinaEast.l9     0.0211490  0.0263402   0.803  0.42215    
+Delta.l9        -0.0034311  0.0492235  -0.070  0.94444    
+United.l9        0.0239946  0.0447330   0.536  0.59176    
+American.l9     -0.0235245  0.0368203  -0.639  0.52298    
+Lufthansa.l9    -0.0127054  0.0391984  -0.324  0.74588    
+Latam.l9        -0.0155554  0.0390834  -0.398  0.69068    
+AirFranceKLM.l9 -0.0286536  0.0284910  -1.006  0.31472    
+const            0.0008014  0.0007136   1.123  0.26165    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02787 on 1509 degrees of freedom
+Multiple R-Squared: 0.07725,	Adjusted R-squared: 0.02221 
+F-statistic: 1.404 on 90 and 1509 DF,  p-value: 0.008938 
+
+
+Estimation results for equation Lufthansa: 
+========================================== 
+Lufthansa = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -1.357e-02  3.476e-02  -0.390  0.69636    
+IAG.l1           6.865e-03  2.307e-02   0.298  0.76607    
+ChinaSouth.l1    7.961e-03  1.838e-02   0.433  0.66496    
+ChinaEast.l1     2.759e-03  1.803e-02   0.153  0.87838    
+Delta.l1         3.675e-02  3.365e-02   1.092  0.27497    
+United.l1       -3.494e-02  3.088e-02  -1.131  0.25807    
+American.l1      1.004e-02  2.549e-02   0.394  0.69386    
+Lufthansa.l1     8.250e-03  2.613e-02   0.316  0.75225    
+Latam.l1         6.245e-03  2.680e-02   0.233  0.81581    
+AirFranceKLM.l1  3.195e-03  1.994e-02   0.160  0.87271    
+Japan.l2         1.621e-02  3.488e-02   0.465  0.64220    
+IAG.l2          -1.253e-02  2.322e-02  -0.540  0.58935    
+ChinaSouth.l2    1.294e-02  1.826e-02   0.709  0.47846    
+ChinaEast.l2    -1.509e-02  1.799e-02  -0.839  0.40178    
+Delta.l2        -1.361e-01  3.368e-02  -4.041  5.6e-05 ***
+United.l2        7.489e-02  3.086e-02   2.426  0.01537 *  
+American.l2      5.455e-02  2.548e-02   2.141  0.03242 *  
+Lufthansa.l2     1.213e-02  2.650e-02   0.458  0.64723    
+Latam.l2        -8.277e-03  2.695e-02  -0.307  0.75877    
+AirFranceKLM.l2 -1.230e-02  1.991e-02  -0.618  0.53672    
+Japan.l3        -7.102e-03  3.490e-02  -0.203  0.83878    
+IAG.l3           2.587e-02  2.333e-02   1.109  0.26768    
+ChinaSouth.l3    2.862e-02  1.826e-02   1.568  0.11711    
+ChinaEast.l3     7.831e-03  1.784e-02   0.439  0.66076    
+Delta.l3         2.453e-02  3.390e-02   0.724  0.46942    
+United.l3       -7.302e-02  3.077e-02  -2.373  0.01775 *  
+American.l3      3.985e-02  2.540e-02   1.569  0.11691    
+Lufthansa.l3     6.077e-03  2.686e-02   0.226  0.82102    
+Latam.l3         1.130e-02  2.695e-02   0.419  0.67516    
+AirFranceKLM.l3  1.271e-02  1.990e-02   0.638  0.52332    
+Japan.l4        -2.432e-02  3.483e-02  -0.698  0.48514    
+IAG.l4           1.543e-02  2.349e-02   0.657  0.51145    
+ChinaSouth.l4    2.384e-03  1.839e-02   0.130  0.89685    
+ChinaEast.l4    -3.270e-02  1.781e-02  -1.836  0.06651 .  
+Delta.l4         1.470e-02  3.391e-02   0.434  0.66465    
+United.l4        3.737e-03  3.080e-02   0.121  0.90343    
+American.l4     -3.330e-03  2.541e-02  -0.131  0.89575    
+Lufthansa.l4    -4.236e-02  2.673e-02  -1.585  0.11315    
+Latam.l4         1.343e-02  2.696e-02   0.498  0.61843    
+AirFranceKLM.l4 -5.052e-03  1.993e-02  -0.253  0.79995    
+Japan.l5         5.906e-02  3.489e-02   1.693  0.09072 .  
+IAG.l5           9.492e-03  2.352e-02   0.403  0.68665    
+ChinaSouth.l5    5.876e-03  1.844e-02   0.319  0.75000    
+ChinaEast.l5    -2.083e-03  1.788e-02  -0.116  0.90729    
+Delta.l5         8.722e-03  3.395e-02   0.257  0.79727    
+United.l5       -6.195e-03  3.074e-02  -0.202  0.84030    
+American.l5      6.437e-03  2.539e-02   0.254  0.79988    
+Lufthansa.l5    -4.880e-03  2.681e-02  -0.182  0.85561    
+Latam.l5         8.463e-03  2.691e-02   0.315  0.75317    
+AirFranceKLM.l5 -3.100e-02  1.993e-02  -1.555  0.12005    
+Japan.l6         6.056e-02  3.484e-02   1.738  0.08238 .  
+IAG.l6          -4.696e-02  2.347e-02  -2.001  0.04560 *  
+ChinaSouth.l6   -2.070e-02  1.844e-02  -1.122  0.26198    
+ChinaEast.l6     6.930e-03  1.786e-02   0.388  0.69812    
+Delta.l6        -5.569e-02  3.390e-02  -1.643  0.10069    
+United.l6        6.428e-02  3.064e-02   2.097  0.03612 *  
+American.l6     -7.849e-03  2.543e-02  -0.309  0.75762    
+Lufthansa.l6     1.298e-03  2.679e-02   0.048  0.96136    
+Latam.l6        -1.582e-03  2.680e-02  -0.059  0.95293    
+AirFranceKLM.l6  3.929e-02  1.997e-02   1.967  0.04931 *  
+Japan.l7        -1.750e-02  3.483e-02  -0.502  0.61550    
+IAG.l7           1.718e-02  2.341e-02   0.734  0.46306    
+ChinaSouth.l7    3.302e-03  1.843e-02   0.179  0.85783    
+ChinaEast.l7     3.779e-02  1.784e-02   2.119  0.03427 *  
+Delta.l7        -2.837e-02  3.378e-02  -0.840  0.40115    
+United.l7        8.095e-02  3.065e-02   2.641  0.00835 ** 
+American.l7     -1.412e-02  2.543e-02  -0.555  0.57876    
+Lufthansa.l7    -2.951e-02  2.678e-02  -1.102  0.27079    
+Latam.l7         1.072e-02  2.677e-02   0.401  0.68874    
+AirFranceKLM.l7  1.604e-02  1.991e-02   0.806  0.42045    
+Japan.l8        -7.756e-03  3.475e-02  -0.223  0.82340    
+IAG.l8           6.722e-02  2.328e-02   2.888  0.00393 ** 
+ChinaSouth.l8   -1.499e-02  1.843e-02  -0.814  0.41597    
+ChinaEast.l8    -9.090e-03  1.784e-02  -0.509  0.61052    
+Delta.l8         2.669e-02  3.378e-02   0.790  0.42954    
+United.l8        4.865e-02  3.070e-02   1.585  0.11321    
+American.l8     -5.017e-02  2.545e-02  -1.971  0.04889 *  
+Lufthansa.l8    -2.112e-03  2.675e-02  -0.079  0.93708    
+Latam.l8         9.135e-03  2.684e-02   0.340  0.73366    
+AirFranceKLM.l8  1.861e-02  1.973e-02   0.943  0.34576    
+Japan.l9        -1.541e-02  3.456e-02  -0.446  0.65572    
+IAG.l9           2.574e-02  2.328e-02   1.106  0.26890    
+ChinaSouth.l9   -3.986e-03  1.833e-02  -0.217  0.82790    
+ChinaEast.l9     7.386e-03  1.798e-02   0.411  0.68130    
+Delta.l9         3.092e-02  3.360e-02   0.920  0.35757    
+United.l9        5.013e-02  3.053e-02   1.642  0.10085    
+American.l9     -3.026e-02  2.513e-02  -1.204  0.22872    
+Lufthansa.l9    -4.483e-03  2.676e-02  -0.168  0.86696    
+Latam.l9        -5.542e-02  2.668e-02  -2.077  0.03795 *  
+AirFranceKLM.l9 -1.412e-02  1.945e-02  -0.726  0.46802    
+const            2.338e-07  4.871e-04   0.000  0.99962    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.01903 on 1509 degrees of freedom
+Multiple R-Squared: 0.0741,	Adjusted R-squared: 0.01888 
+F-statistic: 1.342 on 90 and 1509 DF,  p-value: 0.02036 
+
+
+Estimation results for equation Latam: 
+====================================== 
+Latam = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -0.0506364  0.0349544  -1.449   0.1476    
+IAG.l1           0.0339938  0.0231998   1.465   0.1431    
+ChinaSouth.l1   -0.0058347  0.0184822  -0.316   0.7523    
+ChinaEast.l1     0.0078088  0.0181289   0.431   0.6667    
+Delta.l1        -0.0540136  0.0338398  -1.596   0.1107    
+United.l1        0.0367033  0.0310562   1.182   0.2375    
+American.l1     -0.0040404  0.0256377  -0.158   0.8748    
+Lufthansa.l1    -0.0041580  0.0262758  -0.158   0.8743    
+Latam.l1         0.1373998  0.0269545   5.097 3.88e-07 ***
+AirFranceKLM.l1 -0.0015529  0.0200479  -0.077   0.9383    
+Japan.l2         0.0056421  0.0350770   0.161   0.8722    
+IAG.l2           0.0062262  0.0233468   0.267   0.7898    
+ChinaSouth.l2   -0.0024086  0.0183588  -0.131   0.8956    
+ChinaEast.l2    -0.0082946  0.0180957  -0.458   0.6467    
+Delta.l2         0.0282081  0.0338702   0.833   0.4051    
+United.l2       -0.0675552  0.0310368  -2.177   0.0297 *  
+American.l2      0.0028308  0.0256195   0.110   0.9120    
+Lufthansa.l2    -0.0512729  0.0266504  -1.924   0.0546 .  
+Latam.l2         0.0296941  0.0270981   1.096   0.2733    
+AirFranceKLM.l2  0.0109920  0.0200232   0.549   0.5831    
+Japan.l3         0.0334745  0.0350945   0.954   0.3403    
+IAG.l3           0.0291759  0.0234599   1.244   0.2138    
+ChinaSouth.l3   -0.0192286  0.0183578  -1.047   0.2951    
+ChinaEast.l3    -0.0107581  0.0179397  -0.600   0.5488    
+Delta.l3        -0.0295619  0.0340925  -0.867   0.3860    
+United.l3        0.0242942  0.0309383   0.785   0.4324    
+American.l3     -0.0038128  0.0255431  -0.149   0.8814    
+Lufthansa.l3    -0.0026382  0.0270058  -0.098   0.9222    
+Latam.l3        -0.0500444  0.0271004  -1.847   0.0650 .  
+AirFranceKLM.l3  0.0124481  0.0200142   0.622   0.5341    
+Japan.l4        -0.0489656  0.0350225  -1.398   0.1623    
+IAG.l4          -0.0316222  0.0236210  -1.339   0.1809    
+ChinaSouth.l4    0.0099128  0.0184913   0.536   0.5920    
+ChinaEast.l4    -0.0140478  0.0179049  -0.785   0.4328    
+Delta.l4        -0.0380767  0.0340952  -1.117   0.2643    
+United.l4       -0.0117654  0.0309729  -0.380   0.7041    
+American.l4      0.0352053  0.0255525   1.378   0.1685    
+Lufthansa.l4    -0.0589189  0.0268753  -2.192   0.0285 *  
+Latam.l4         0.0186102  0.0271118   0.686   0.4926    
+AirFranceKLM.l4  0.0145343  0.0200434   0.725   0.4685    
+Japan.l5        -0.0035777  0.0350838  -0.102   0.9188    
+IAG.l5           0.0218561  0.0236564   0.924   0.3557    
+ChinaSouth.l5    0.0265904  0.0185409   1.434   0.1517    
+ChinaEast.l5    -0.0092667  0.0179809  -0.515   0.6064    
+Delta.l5         0.0410383  0.0341385   1.202   0.2295    
+United.l5       -0.0031852  0.0309107  -0.103   0.9179    
+American.l5     -0.0361168  0.0255287  -1.415   0.1573    
+Lufthansa.l5    -0.0198240  0.0269644  -0.735   0.4623    
+Latam.l5        -0.0045461  0.0270593  -0.168   0.8666    
+AirFranceKLM.l5  0.0256806  0.0200420   1.281   0.2003    
+Japan.l6         0.0539286  0.0350327   1.539   0.1239    
+IAG.l6           0.0097690  0.0236021   0.414   0.6790    
+ChinaSouth.l6   -0.0046650  0.0185473  -0.252   0.8014    
+ChinaEast.l6     0.0052946  0.0179631   0.295   0.7682    
+Delta.l6         0.0105754  0.0340926   0.310   0.7565    
+United.l6        0.0101972  0.0308163   0.331   0.7408    
+American.l6     -0.0100210  0.0255698  -0.392   0.6952    
+Lufthansa.l6     0.0410014  0.0269379   1.522   0.1282    
+Latam.l6         0.0028906  0.0269472   0.107   0.9146    
+AirFranceKLM.l6  0.0089232  0.0200795   0.444   0.6568    
+Japan.l7        -0.0146228  0.0350249  -0.417   0.6764    
+IAG.l7          -0.0059558  0.0235366  -0.253   0.8003    
+ChinaSouth.l7    0.0035439  0.0185312   0.191   0.8484    
+ChinaEast.l7     0.0282059  0.0179360   1.573   0.1160    
+Delta.l7        -0.0857028  0.0339656  -2.523   0.0117 *  
+United.l7       -0.0067941  0.0308203  -0.220   0.8256    
+American.l7      0.0463666  0.0255695   1.813   0.0700 .  
+Lufthansa.l7    -0.0214483  0.0269346  -0.796   0.4260    
+Latam.l7        -0.0338792  0.0269171  -1.259   0.2084    
+AirFranceKLM.l7  0.0174801  0.0200212   0.873   0.3828    
+Japan.l8        -0.0524767  0.0349425  -1.502   0.1334    
+IAG.l8           0.0382216  0.0234060   1.633   0.1027    
+ChinaSouth.l8    0.0301283  0.0185285   1.626   0.1041    
+ChinaEast.l8    -0.0176982  0.0179428  -0.986   0.3241    
+Delta.l8         0.0014849  0.0339642   0.044   0.9651    
+United.l8       -0.0180177  0.0308712  -0.584   0.5595    
+American.l8     -0.0365310  0.0255934  -1.427   0.1537    
+Lufthansa.l8    -0.0190206  0.0268981  -0.707   0.4796    
+Latam.l8         0.0540178  0.0269923   2.001   0.0455 *  
+AirFranceKLM.l8  0.0120008  0.0198400   0.605   0.5454    
+Japan.l9         0.0008162  0.0347558   0.023   0.9813    
+IAG.l9           0.0144030  0.0234067   0.615   0.5384    
+ChinaSouth.l9   -0.0022156  0.0184365  -0.120   0.9044    
+ChinaEast.l9     0.0163508  0.0180801   0.904   0.3660    
+Delta.l9        -0.0079918  0.0337874  -0.237   0.8131    
+United.l9        0.0290891  0.0307051   0.947   0.3436    
+American.l9     -0.0273550  0.0252738  -1.082   0.2793    
+Lufthansa.l9     0.0131793  0.0269061   0.490   0.6243    
+Latam.l9        -0.0419561  0.0268271  -1.564   0.1180    
+AirFranceKLM.l9 -0.0063409  0.0195564  -0.324   0.7458    
+const           -0.0003695  0.0004898  -0.754   0.4508    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.01913 on 1509 degrees of freedom
+Multiple R-Squared: 0.07305,	Adjusted R-squared: 0.01776 
+F-statistic: 1.321 on 90 and 1509 DF,  p-value: 0.02638 
+
+
+Estimation results for equation AirFranceKLM: 
+============================================= 
+AirFranceKLM = Japan.l1 + IAG.l1 + ChinaSouth.l1 + ChinaEast.l1 + Delta.l1 + United.l1 + American.l1 + Lufthansa.l1 + Latam.l1 + AirFranceKLM.l1 + Japan.l2 + IAG.l2 + ChinaSouth.l2 + ChinaEast.l2 + Delta.l2 + United.l2 + American.l2 + Lufthansa.l2 + Latam.l2 + AirFranceKLM.l2 + Japan.l3 + IAG.l3 + ChinaSouth.l3 + ChinaEast.l3 + Delta.l3 + United.l3 + American.l3 + Lufthansa.l3 + Latam.l3 + AirFranceKLM.l3 + Japan.l4 + IAG.l4 + ChinaSouth.l4 + ChinaEast.l4 + Delta.l4 + United.l4 + American.l4 + Lufthansa.l4 + Latam.l4 + AirFranceKLM.l4 + Japan.l5 + IAG.l5 + ChinaSouth.l5 + ChinaEast.l5 + Delta.l5 + United.l5 + American.l5 + Lufthansa.l5 + Latam.l5 + AirFranceKLM.l5 + Japan.l6 + IAG.l6 + ChinaSouth.l6 + ChinaEast.l6 + Delta.l6 + United.l6 + American.l6 + Lufthansa.l6 + Latam.l6 + AirFranceKLM.l6 + Japan.l7 + IAG.l7 + ChinaSouth.l7 + ChinaEast.l7 + Delta.l7 + United.l7 + American.l7 + Lufthansa.l7 + Latam.l7 + AirFranceKLM.l7 + Japan.l8 + IAG.l8 + ChinaSouth.l8 + ChinaEast.l8 + Delta.l8 + United.l8 + American.l8 + Lufthansa.l8 + Latam.l8 + AirFranceKLM.l8 + Japan.l9 + IAG.l9 + ChinaSouth.l9 + ChinaEast.l9 + Delta.l9 + United.l9 + American.l9 + Lufthansa.l9 + Latam.l9 + AirFranceKLM.l9 + const 
+
+                  Estimate Std. Error t value Pr(>|t|)    
+Japan.l1        -0.0417578  0.0456255  -0.915  0.36022    
+IAG.l1          -0.0085216  0.0302824  -0.281  0.77844    
+ChinaSouth.l1    0.0657941  0.0241246   2.727  0.00646 ** 
+ChinaEast.l1     0.0197537  0.0236634   0.835  0.40398    
+Delta.l1         0.0143385  0.0441706   0.325  0.74552    
+United.l1        0.0027195  0.0405372   0.067  0.94652    
+American.l1     -0.0120837  0.0334645  -0.361  0.71808    
+Lufthansa.l1     0.2434058  0.0342975   7.097 1.96e-12 ***
+Latam.l1        -0.0136050  0.0351833  -0.387  0.69904    
+AirFranceKLM.l1 -0.0216163  0.0261683  -0.826  0.40891    
+Japan.l2         0.0662966  0.0457855   1.448  0.14783    
+IAG.l2          -0.0147491  0.0304742  -0.484  0.62847    
+ChinaSouth.l2    0.0103431  0.0239635   0.432  0.66608    
+ChinaEast.l2    -0.0326682  0.0236201  -1.383  0.16685    
+Delta.l2        -0.0027935  0.0442103  -0.063  0.94963    
+United.l2       -0.0162932  0.0405119  -0.402  0.68761    
+American.l2      0.0593330  0.0334407   1.774  0.07622 .  
+Lufthansa.l2     0.2130978  0.0347864   6.126 1.15e-09 ***
+Latam.l2        -0.0170489  0.0353708  -0.482  0.62987    
+AirFranceKLM.l2 -0.0425227  0.0261360  -1.627  0.10395    
+Japan.l3        -0.0246888  0.0458084  -0.539  0.59000    
+IAG.l3          -0.0292549  0.0306219  -0.955  0.33955    
+ChinaSouth.l3    0.0959475  0.0239622   4.004 6.53e-05 ***
+ChinaEast.l3     0.0032994  0.0234165   0.141  0.88797    
+Delta.l3        -0.0072744  0.0445004  -0.163  0.87017    
+United.l3       -0.0095972  0.0403834  -0.238  0.81218    
+American.l3      0.0345274  0.0333411   1.036  0.30056    
+Lufthansa.l3     0.0030845  0.0352504   0.088  0.93028    
+Latam.l3         0.0187732  0.0353738   0.531  0.59570    
+AirFranceKLM.l3 -0.0720092  0.0261242  -2.756  0.00591 ** 
+Japan.l4        -0.0349098  0.0457145  -0.764  0.44520    
+IAG.l4          -0.0192964  0.0308321  -0.626  0.53150    
+ChinaSouth.l4   -0.0231385  0.0241365  -0.959  0.33789    
+ChinaEast.l4    -0.0279367  0.0233710  -1.195  0.23214    
+Delta.l4         0.0268136  0.0445040   0.602  0.54693    
+United.l4        0.0236375  0.0404284   0.585  0.55885    
+American.l4      0.0126754  0.0333534   0.380  0.70397    
+Lufthansa.l4     0.0403288  0.0350799   1.150  0.25048    
+Latam.l4         0.0543358  0.0353887   1.535  0.12489    
+AirFranceKLM.l4 -0.0021206  0.0261624  -0.081  0.93541    
+Japan.l5         0.0320767  0.0457944   0.700  0.48375    
+IAG.l5           0.0114880  0.0308784   0.372  0.70992    
+ChinaSouth.l5   -0.0111762  0.0242012  -0.462  0.64429    
+ChinaEast.l5     0.0144352  0.0234703   0.615  0.53862    
+Delta.l5        -0.0443128  0.0445605  -0.994  0.32017    
+United.l5        0.0440689  0.0403473   1.092  0.27490    
+American.l5      0.0558212  0.0333223   1.675  0.09410 .  
+Lufthansa.l5     0.0162160  0.0351963   0.461  0.64506    
+Latam.l5        -0.0156008  0.0353201  -0.442  0.65877    
+AirFranceKLM.l5 -0.0005601  0.0261605  -0.021  0.98292    
+Japan.l6         0.0578444  0.0457277   1.265  0.20608    
+IAG.l6          -0.0023769  0.0308075  -0.077  0.93851    
+ChinaSouth.l6    0.0035316  0.0242095   0.146  0.88404    
+ChinaEast.l6     0.0005153  0.0234470   0.022  0.98247    
+Delta.l6         0.0581838  0.0445006   1.307  0.19125    
+United.l6       -0.0427921  0.0402240  -1.064  0.28757    
+American.l6      0.0067732  0.0333759   0.203  0.83921    
+Lufthansa.l6     0.0553372  0.0351617   1.574  0.11575    
+Latam.l6         0.0012906  0.0351737   0.037  0.97074    
+AirFranceKLM.l6 -0.0145991  0.0262095  -0.557  0.57760    
+Japan.l7        -0.0274103  0.0457175  -0.600  0.54889    
+IAG.l7          -0.0046503  0.0307220  -0.151  0.87971    
+ChinaSouth.l7   -0.0055912  0.0241885  -0.231  0.81723    
+ChinaEast.l7     0.0425731  0.0234116   1.818  0.06919 .  
+Delta.l7         0.0557225  0.0443349   1.257  0.20900    
+United.l7       -0.0694766  0.0402293  -1.727  0.08437 .  
+American.l7      0.0631909  0.0333755   1.893  0.05851 .  
+Lufthansa.l7     0.0144936  0.0351573   0.412  0.68021    
+Latam.l7         0.0012617  0.0351345   0.036  0.97136    
+AirFranceKLM.l7 -0.0124944  0.0261334  -0.478  0.63265    
+Japan.l8         0.0490962  0.0456099   1.076  0.28190    
+IAG.l8           0.0347040  0.0305515   1.136  0.25617    
+ChinaSouth.l8    0.0212954  0.0241850   0.881  0.37872    
+ChinaEast.l8    -0.0089746  0.0234205  -0.383  0.70163    
+Delta.l8         0.0236397  0.0443330   0.533  0.59395    
+United.l8       -0.0433327  0.0402958  -1.075  0.28238    
+American.l8      0.0168850  0.0334067   0.505  0.61332    
+Lufthansa.l8     0.0315564  0.0351098   0.899  0.36891    
+Latam.l8         0.0194022  0.0352327   0.551  0.58193    
+AirFranceKLM.l8 -0.0281390  0.0258969  -1.087  0.27740    
+Japan.l9         0.0144905  0.0453663   0.319  0.74946    
+IAG.l9          -0.0070176  0.0305524  -0.230  0.81836    
+ChinaSouth.l9    0.0132181  0.0240650   0.549  0.58290    
+ChinaEast.l9    -0.0279116  0.0235997  -1.183  0.23711    
+Delta.l9        -0.0013914  0.0441022  -0.032  0.97484    
+United.l9       -0.0047139  0.0400789  -0.118  0.90639    
+American.l9      0.0286727  0.0329895   0.869  0.38490    
+Lufthansa.l9     0.0345335  0.0351201   0.983  0.32562    
+Latam.l9         0.0332132  0.0350171   0.948  0.34303    
+AirFranceKLM.l9 -0.0046671  0.0255267  -0.183  0.85496    
+const           -0.0007593  0.0006394  -1.187  0.23522    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Residual standard error: 0.02497 on 1509 degrees of freedom
+Multiple R-Squared: 0.1113,	Adjusted R-squared: 0.05833 
+F-statistic:   2.1 on 90 and 1509 DF,  p-value: 2.463e-08 
+
+
+
+Covariance matrix of residuals:
+                  Japan       IAG ChinaSouth  ChinaEast      Delta
+Japan         2.001e-04 1.588e-05  8.173e-06  1.112e-05 -8.834e-06
+IAG           1.588e-05 4.699e-04  5.683e-06  1.513e-05  8.636e-05
+ChinaSouth    8.173e-06 5.683e-06  3.773e-04 -6.642e-07  1.404e-05
+ChinaEast     1.112e-05 1.513e-05 -6.642e-07  7.307e-04  1.958e-05
+Delta        -8.834e-06 8.636e-05  1.404e-05  1.958e-05  5.216e-04
+United       -1.163e-05 8.326e-05  1.329e-05  1.460e-05  4.247e-04
+American     -8.273e-06 1.048e-04  7.602e-06  1.922e-05  4.237e-04
+Lufthansa     2.819e-06 7.260e-06  2.429e-06  5.206e-06  2.722e-06
+Latam         9.735e-06 4.763e-05 -3.933e-06 -1.282e-06  1.112e-04
+AirFranceKLM  1.117e-05 8.733e-06  2.599e-06 -8.120e-06 -9.315e-06
+                 United   American  Lufthansa      Latam
+Japan        -1.163e-05 -8.273e-06  2.819e-06  9.735e-06
+IAG           8.326e-05  1.048e-04  7.260e-06  4.763e-05
+ChinaSouth    1.329e-05  7.602e-06  2.429e-06 -3.933e-06
+ChinaEast     1.460e-05  1.922e-05  5.206e-06 -1.282e-06
+Delta         4.247e-04  4.237e-04  2.722e-06  1.112e-04
+United        6.396e-04  4.783e-04 -1.769e-05  1.322e-04
+American      4.783e-04  7.770e-04 -2.000e-05  1.332e-04
+Lufthansa    -1.769e-05 -2.000e-05  3.620e-04  2.826e-07
+Latam         1.322e-04  1.332e-04  2.826e-07  3.661e-04
+AirFranceKLM -7.793e-06  1.228e-05  8.465e-05 -3.779e-06
+             AirFranceKLM
+Japan           1.117e-05
+IAG             8.733e-06
+ChinaSouth      2.599e-06
+ChinaEast      -8.120e-06
+Delta          -9.315e-06
+United         -7.793e-06
+American        1.228e-05
+Lufthansa       8.465e-05
+Latam          -3.779e-06
+AirFranceKLM    6.237e-04
+
+Correlation matrix of residuals:
+                Japan     IAG ChinaSouth ChinaEast     Delta
+Japan         1.00000 0.05178   0.029742  0.029088 -0.027340
+IAG           0.05178 1.00000   0.013497  0.025817  0.174434
+ChinaSouth    0.02974 0.01350   1.000000 -0.001265  0.031645
+ChinaEast     0.02909 0.02582  -0.001265  1.000000  0.031710
+Delta        -0.02734 0.17443   0.031645  0.031710  1.000000
+United       -0.03250 0.15187   0.027051  0.021362  0.735250
+American     -0.02098 0.17348   0.014040  0.025503  0.665580
+Lufthansa     0.01047 0.01760   0.006571  0.010122  0.006264
+Latam         0.03597 0.11484  -0.010581 -0.002479  0.254403
+AirFranceKLM  0.03160 0.01613   0.005357 -0.012028 -0.016331
+               United American  Lufthansa      Latam AirFranceKLM
+Japan        -0.03250 -0.02098  0.0104731  0.0359674     0.031605
+IAG           0.15187  0.17348  0.0176018  0.1148382     0.016130
+ChinaSouth    0.02705  0.01404  0.0065712 -0.0105815     0.005357
+ChinaEast     0.02136  0.02550  0.0101221 -0.0024791    -0.012028
+Delta         0.73525  0.66558  0.0062639  0.2544032    -0.016331
+United        1.00000  0.67848 -0.0367582  0.2731215    -0.012338
+American      0.67848  1.00000 -0.0377153  0.2497179     0.017636
+Lufthansa    -0.03676 -0.03772  1.0000000  0.0007763     0.178149
+Latam         0.27312  0.24972  0.0007763  1.0000000    -0.007909
+AirFranceKLM -0.01234  0.01764  0.1781493 -0.0079093     1.000000
+
+
