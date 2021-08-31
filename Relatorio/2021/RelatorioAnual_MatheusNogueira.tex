@@ -46,9 +46,9 @@
 	\end{equation}
 	onde os valores $\phi_i$ são os coeficientes a serem estimados, $r_t$ é o valor presente da série, $r_{t-i}$ são os valores defasados e ${a_t}$ é um ruído branco de média zero e variância $\sigma^2_a$. 
 	
-	Este modelo foi utilizado para compor o modelo ARIMA e prever o comportamento de 10 séries temporais estacionárias e univariáveis de forma independente, cujos resultados estão já foram apresentados e estão disponíveis em \cite{git}.
+	Este modelo foi utilizado para compor o modelo ARIMA e prever o comportamento de 10 séries temporais estacionárias e univariáveis de forma independente, cujos resultados já foram apresentados e estão disponíveis em \cite{git}.
 	
-	O modelo VAR, como o nome sugere, também é um modelo auto regressivo mas, ao invés de aceitar apenas séries univariáveis, isto é, valores escalares para as variáveis $r_t$, $r_{t-i}$ e para os coeficientes $\phi_i$, é capaz de modelar séries multivariáveis. Sendo assim, podemos apresentar a equação que define o modelo VAR definida em \cite{VAR}. Seja $Y_t=(y_{1t},y_{2t},...y_{nt})$ um vetor de dimensão $(n\times 1)$ com os valores atuais de $n$ séries temporais. Sendo assim, o modelo VAR com um \textrm{lag-p} de valores defasados é
+	O modelo VAR, como o nome sugere, também é um modelo auto regressivo mas, ao invés de aceitar apenas séries univariáveis, isto é, valores escalares para as variáveis $r_t$, $r_{t-i}$ e para os coeficientes $\phi_i$, é capaz de modelar séries multivariáveis. Sendo assim, podemos apresentar a equação que define o modelo VAR definida em \cite{VAR}. Seja $Y_t=(y_{1t},y_{2t},...y_{nt})^T$ um vetor de dimensão $(n\times 1)$ com os valores atuais de $n$ séries temporais. Sendo assim, o modelo VAR com um \textrm{lag-p} de valores defasados é
 	\begin{equation}\label{eq:VAR}
 		Y_t=c+\Pi_1Y_{t-1}+\Pi_2Y_{t-2}+...+\Pi_pY_{t-p}+\epsilon_t\mbox{  , onde }t=1,...T
 	\end{equation}
@@ -99,11 +99,11 @@
 
 	A primeira vantagem é obviamente interessante, uma vez que o grande objetivo é, justamente, obter modelos de previsão de séries temporais mais precisos. A segunda, por sua vez, também é importante uma vez que as 10 séries utilizadas, por serem de um mesmo nicho - todas são séries dos preços/retornos de ações de companhias aéreas - podem revelar análises de interconexão interessantes. A apresentação dessa ferramentas está descrita na seção \ref{sec:interconex}.
 	
-	Uma vez compreendida a equação que define o modelo VAR e as suas características possivelmente vantajosas, podemos definir a metodologia utilizada para a estimação de seus parâmetros, para a definição do \textrm{lag-p} e o seu método de previsão.
+	Uma vez compreendida a equação que define o modelo VAR e as suas características possivelmente vantajosas, podemos definir a metodologia utilizada para a estimativa de seus parâmetros, para a definição do \textrm{lag-p} e o seu método de previsão.
 	
 	Com o intuito de estimar os parâmetros necessários para o modelo, utiliza-se o fato dele poder ser enxergado como o encapsulamento de $n$ séries a serem modeladas via AR(p). Desse modo, é possível estimar os parâmetros da cada uma das equações separadamente sem perda de generalidade \cite{VAR}. Sendo assim, é utilizado o método de mínimos quadrados para realizar esta estimativa de coeficientes.
 	
-	Novamente, uma vez que o modelo VAR é um modelo auto regressivo assim como o AR, o \textrm{lag-p}, isto é, o número de valores passados das séries que serão utilizados para estimar o modelo e, consequentemente, prever os valores futuros, é estimado a partir da minimização de alguns critérios. Os critérios mais comuns a serem minimizados são \textrm{Akaike} (AIC), \textrm{Schwarz-Bayesian} (BIC) e \textrm{Hannan-Quinn} (HQ) \cite{VAR}. Esses critérios encontram-se definidos abaixo.
+	Novamente, sabendo que o modelo VAR é um modelo auto regressivo assim como o AR, o \textrm{lag-p}, isto é, o número de valores passados das séries que serão utilizados para estimar o modelo e, consequentemente, prever os valores futuros, é estimado a partir da minimização de alguns critérios. Os critérios mais comuns a serem minimizados são \textrm{Akaike} (AIC), \textrm{Schwarz-Bayesian} (BIC) e \textrm{Hannan-Quinn} (HQ) \cite{VAR}. Esses critérios encontram-se definidos abaixo.
 	\begin{align*}
 		\textrm{AIC(p)}=&\ln\left|\sum(p)\right|+\dfrac{2}{T}pn^2\\
 		\textrm{BIC(p)}=&\ln\left|\sum(p)\right|+\dfrac{\ln T}{T}pn^2\\
@@ -136,7 +136,7 @@
 		\hat{Y}_{T+h|T}=c+\hat{\Pi}_1\hat{Y}_{T+h-1|T}+...+\hat{\Pi}_p\hat{Y}_{T+h-p|T}
 	\end{equation}
 
-	onde $\hat{\Pi}_i$ são as matrizes de coeficientes estimados. A diferença é apenas de notação, de certo modo. A existência do símbolo circunflexo denota o fato daquele parâmetro ter sido estimado e não conhecido a priori. O tamanho do horizonte de previsão, isto é, a quantidade de passos futuros a serem previstos, deve ser definida com cautela,  visto que o erro das previsões tende a aumentar com o aumento do horizonte. Veremos que, para horizontes grandes, o valor da previsão parece convergir para um valor constante.
+	onde $\hat{\Pi}_i$ são as matrizes de coeficientes estimados. A diferença é apenas de notação, de certo modo. A existência do símbolo circunflexo denota o fato daquele parâmetro ter sido estimado e não conhecido a priori. O tamanho do horizonte de previsão, isto é, a quantidade de passos futuros a serem previstos, deve ser definido com cautela,  visto que o erro das previsões tende a aumentar com o aumento do horizonte. Veremos que, para horizontes grandes, o valor da previsão parece convergir para um valor constante.
 	
 	Por fim, com o intuito de verificar a qualidade da previsão, foi utilizado o RMSE, \textrm{Root Mean Square Error}, entre os valores originais das séries separados como grupo de teste e os valores previstos para esse intervalo separado. O RMSE é calculado como se segue:
 	\begin{equation}\label{eq:RMSE}
@@ -149,7 +149,7 @@
 	
 	Após a rápida explicação teórica por detrás do modelo VAR, haja vista a sua enorme similaridade com o modelo AR já estudado com base em \cite{Tsay} e apresentado no relatório disponível em \cite{git}, podemos analisar o fundamento teórico de três ferramentas estatísticas disponíveis pelo modelo vetorial que permitem a análise e procura de possíveis interconexões ou interdependência entre as séries modeladas. São elas: \textrm{Granger Causality}, \textrm{Impulse Response Function} e \textrm{Forecast Error Variance Decomposition} (FEVD).\\
 	
-	A \textbf{Causalidade de Granger} consiste em uma métrica que busca descobrir se uma das séries modelada pelo VAR é causa das demais séries modeladas. Em outras palavras, esta ferramenta busca responder a pergunta: será que os valores de cada uma das séries do modelo é uma consequência dos valores de alguma das outras séries? É importante ressaltar que essa análise se limita a estudar a causalidade em termos de previsão.
+	A \textbf{Causalidade de Granger} consiste em uma métrica que busca descobrir se uma das séries modelada pelo VAR é causa das demais séries modeladas. Em outras palavras, esta ferramenta busca responder à pergunta: será que os valores de cada uma das séries do modelo são consequência dos valores de alguma das outras séries? É importante ressaltar que essa análise se limita a estudar a causalidade em termos de previsão.
 	
 	Para entender melhor essa análise, tome o exemplo de duas séries temporais arbitrárias: a série que mede a quantidade de chuva semanal no estado do Rio de Janeiro e a série que mede o nível de água semanal do rio Paraíba do Sul. É natural pensarmos que, se em uma dada semana a quantidade de chuva aumenta em relação a semana anterior, o nível de água do rio também aumentará. Essas duas séries, mais do que correlacionadas, estão causalmente relacionadas, ou seja, a evolução ou os valores de uma das séries (quantidade de chuvas) é influencia de maneira causal a evolução ou os valores da outra (nível de água no rio Paraíba do Sul). Se essas séries forem modeladas via VAR e submetidas ao teste de causalidade de Granger, espera-se que ele chegue neste mesmo resultado obtido pelo senso comum.
 	
@@ -201,7 +201,7 @@
 		\textrm{FEVD}_{i,j}(h)=\dfrac{\sigma^2_{\eta_j}\sum_{s=0}^{h-1}(\theta^s_{ij})^2}{\sigma^2_{\eta_1}\sum_{s=0}^{h-1}(\theta^s_{i1})^2+...+\sigma^2_{\eta_n}\sum_{s=0}^{h-1}(\theta^s_{in})^2}\mbox{   , }i,j=1,...,n
 	\end{equation*}
 	
-	Com isso, encerramos a análise teórica metodológica necessária para entender os resultados obtidos com o modelo VAR ao modelar 10 séries temporais de preços de ações de companhias aéreas.
+	Com isso, encerramos a análise teórica metodológica necessária para entender os resultados obtidos com o modelo VAR ao modelar 10 séries temporais de retornos de ações de companhias aéreas.
 	
 	\subsection{Resultados VAR}
 	\subsubsection{Resultados Previsão}\label{sec:resultados_VAR_previsao}
@@ -324,7 +324,7 @@
 		\label{fig:grangercausality}
 	\end{figure}
 	
-	Dado o output dessa função, a interpretação do resultado é clara: nenhuma das séries, embora todas serem de um mesmo nicho de mercado, apresenta relação de causalidade com as demais.
+	Dado o output dessa função, a interpretação do resultado é clara: nenhuma das séries, embora todas sejam de um mesmo nicho de mercado, apresenta relação de causalidade com as demais.
 	
 	Partindo para a análise da função de resposta impulsional \textrm{IRF} definida na seção \ref{sec:interconex}, foi utilizada uma função do mesmo pacote com o nome de \textrm{irf} cujo retorno pode ser expressado de maneira visual como a imagem abaixo para a série da Japan Airlines.
 	
@@ -371,14 +371,14 @@
 		\textrm{STFT}^{(\omega)}_X(t,f)=\int_{t}[x(t)\omega^{*}(t-t')]e^{2\pi if t}dt
 	\end{equation*}
 
-	Uma vez apresentados de forma breve, haja vista que a Análise de Fourier não é o foco desta pesquisa, podemos, enfim, enumerar alguns desafios que essa teoria não consegue superar e, em seguida, introduzir a teoria de Transformada \textrm{Wavelet} Contínua, ou \textrm{CWT}, que é capaz de suprir essas necessidades.
+	Uma vez apresentados de forma breve, visto que a Análise de Fourier não é o foco desta pesquisa, podemos, enfim, enumerar alguns desafios que essa teoria não consegue superar e, em seguida, introduzir a teoria de Transformada \textrm{Wavelet} Contínua, ou \textrm{CWT}, que é capaz de suprir essas necessidades.
 	
 	\begin{enumerate}
 		\item Falta de localização temporal: não é possível saber em qual momento do tempo cada frequência existiu
 		\item Janela de tamanho fixo: cria uma limitação da análise 
 	\end{enumerate}
 
-	Dito isso, a Transformada \textrm{Wavelet} Contínua possui dois parâmetros em sua definição, justamente para superar os desafios enumerados. Um parâmetro é para a captura da informação da frequência, chamado $s$ \textrm{(scale)} que é definido como o inverso da frequência $f$, enquanto o outro, $\tau$ \textrm{(translation)} é responsável com transladar a \textrm{Wavelet}-mãe pelo sinal. A equação que define a \textrm{CWT} é
+	Dito isso, a Transformada \textrm{Wavelet} Contínua possui dois parâmetros em sua definição, justamente para superar os desafios enumerados. Um parâmetro é para a captura da informação da frequência, chamado $s$ \textrm{(scale)} que é definido como o inverso da frequência $f$, enquanto o outro, $\tau$ \textrm{(translation)} é responsável por transladar a \textrm{Wavelet}-mãe pelo sinal. A equação que define a \textrm{CWT} é
 	\begin{equation}\label{eq:CWT}
 		\textrm{CWT}^{\psi}_{x}(\tau,s)=\Psi^{\psi}_x(\tau,s)=\dfrac{1}{\sqrt{s}}\int x(t)\psi^{*}(\dfrac{t-\tau}{s})dt
 	\end{equation}
@@ -437,7 +437,7 @@
 	
 	Ao final do algoritmo, os coeficientes que formam a \textrm{DWT} são as saídas dos filtros passa-altas em cada nível de decomposição e a saída do passa-baixas do último nível.
 	
-	Note que, a cada iteração, perde-se metade da informação que existia no nível anterior. Isso é um problema significativo, uma vez que esses coeficientes serão tratados como novas séries a serem modelados via ARIMA. Sendo assim, em níveis mais profundos da decomposição, responsáveis por fornecer informação sobre as baixas frequências, teremos poucas entradas para a modelagem ARIMA, o que pode gerar deficiências na estimativa do modelo e, consequentemente, na qualidade da previsão. A fim de contornar esse problema, existe uma outra transformada \textrm{Wavelet} denominada \textrm{Maximal Overlap Discrete Wavelet Transform}, ou MODWT, que impede a perda de metade da informação a cada nível da decomposição, ou seja, garante que todas as saídas dos filtros possuam uma quantidade constante de entradas \cite{WaveARIMA}. Esta é a transformada utilizada pelo pacote de R que foi utilizado para a obtenção dos resultados a serem apresentados em \ref{sec:resultadosWave}.
+	Note que, a cada iteração, perde-se metade da informação que existia no nível anterior. Isso é um problema significativo, uma vez que esses coeficientes serão tratados como novas séries a serem modeladas via ARIMA. Sendo assim, em níveis mais profundos da decomposição, responsáveis por fornecer informação sobre as baixas frequências, teremos poucas entradas para a modelagem ARIMA, o que pode gerar deficiências na estimativa do modelo e, consequentemente, na qualidade da previsão. A fim de contornar esse problema, existe uma outra transformada \textrm{Wavelet} denominada \textrm{Maximal Overlap Discrete Wavelet Transform}, ou MODWT, que impede a perda de metade da informação a cada nível da decomposição, ou seja, garante que todas as saídas dos filtros possuam uma quantidade constante de entradas \cite{WaveARIMA}. Esta é a transformada utilizada pelo pacote de R que foi utilizado para a obtenção dos resultados a serem apresentados em \ref{sec:resultadosWave}.
 	
 	Uma vez apresentados os fundamentos teóricos da teoria de \textrm{Wavelets} e conhecida a modelagem ARIMA, estudada na primeira parte desta pesquisa cujo relatório está disponível em \cite{git}, pode ser definido o algoritmo, em alto nível, do modelo híbrido de previsão que combina ARIMA com \textrm{Wavelets}. A imagem a seguir ilustra esse algoritmo, inspirado por \cite{WaveARIMA}.
 	\begin{figure}[H]
@@ -458,9 +458,9 @@
 	
 	\subsection{Resultados Wavelets + ARIMA}\label{sec:resultadosWave}
 	
-	Com o intuito de implementar o algoritmo de modelagem e previsão do modelo híbrido apresentado na seção anterior, foi utilizada, novamente, a linguagem R pelos mesmos motivos já enumerados. Durante a pesquisa, foi descoberto um pacote dedicado a combinar \textrm{Wavelets} com o modelo ARIMA denominado \textrm{WaveletARIMA} e disponível em \cite{CRANR}. Este pacote fornece apenas duas funções: \textrm{WaveletFitting} e \textrm{WaveletFittingarma}. A segunda função foi aquela utilizada nesta pesquisa e ela implementa o algoritmo da MODWT para a decomposição \textrm{Wavelet}.
+	Com o intuito de implementar o algoritmo de modelagem e previsão do modelo híbrido apresentado na seção anterior, foi utilizada, novamente, a linguagem R pelos mesmos motivos já enumerados. Durante a pesquisa, foi descoberto um pacote dedicado a combinar \textrm{Wavelets} com o modelo ARIMA denominado \textrm{WaveletARIMA} e disponível em \cite{CRANR}. Este pacote fornece apenas duas funções: \textrm{WaveletFitting} e \textrm{WaveletFittingarma}. A segunda função foi aquela utilizada nesta pesquisa e ela implementa o algoritmo da MODWT, utilizando o filtro \textrm{Haar}, para a decomposição \textrm{Wavelet}.
 	
-	Essa função recebe como parâmetros a série temporal, o nível de decomposição, o horizonte de previsão e o \textrm{lag} máximo para as ordens AR e MA do modelo ARIMA (ver \cite{Tsay} ou relatório anterior em \cite{git}). Como retorno, ela devolve um objeto de classe \textrm{WaveletFittingarma} que é, basicamente, uma lista de listas com todos os coeficientes estimados e valores futuros previstos, além de algumas outras métricas menos importantes para esta pesquisa. Note, portanto, que esta função é responsável todo o processo de decomposição via MODWT e utilizando o filtro \textrm{Haar}, estimativa do modelo ARIMA e previsão, restando apenas o pré processamento e o cálculo do erro da previsão.
+	Essa função recebe como parâmetros a série temporal, o nível de decomposição, o horizonte de previsão e o \textrm{lag} máximo para as ordens AR e MA do modelo ARIMA (ver \cite{Tsay} ou relatório anterior em \cite{git}). Como retorno, ela devolve um objeto de classe \textrm{WaveletFittingarma} que é, basicamente, uma lista de listas com todos os coeficientes estimados e valores futuros previstos, além de algumas outras métricas menos importantes para esta pesquisa. Note, portanto, que esta função é responsável todo o processo de decomposição via MODWT, estimativa do modelo ARIMA e previsão, restando apenas o pré processamento e o cálculo do erro da previsão.
 	
 	Dito isso, o pré-processamento foi feito de forma idêntica ao já apresentado para o modelo VAR e também realizado para o modelo ARIMA da primeira etapa desta pesquisa. De mesmo modo, foram utilizadas exatamente as mesmas séries de todo o restante da pesquisa a fim de obter uma comparação justa dos diferentes modelos. Sendo assim, será feita apenas uma recapitulação breve dos passos do pré-processamento. 
 	
